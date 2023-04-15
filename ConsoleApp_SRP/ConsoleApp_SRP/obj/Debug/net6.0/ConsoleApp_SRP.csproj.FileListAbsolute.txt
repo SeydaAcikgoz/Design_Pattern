@@ -1,0 +1,15 @@
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\ConsoleApp_SRP.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\ConsoleApp_SRP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\ConsoleApp_SRP.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\ConsoleApp_SRP.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\ConsoleApp_SRP.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\bin\Debug\net6.0\ConsoleApp_SRP.exe
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\bin\Debug\net6.0\ConsoleApp_SRP.deps.json
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\bin\Debug\net6.0\ConsoleApp_SRP.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\bin\Debug\net6.0\ConsoleApp_SRP.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\bin\Debug\net6.0\ConsoleApp_SRP.pdb
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\ConsoleApp_SRP.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\refint\ConsoleApp_SRP.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\ConsoleApp_SRP.pdb
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\ConsoleApp_SRP.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_SRP\ConsoleApp_SRP\obj\Debug\net6.0\ref\ConsoleApp_SRP.dll
