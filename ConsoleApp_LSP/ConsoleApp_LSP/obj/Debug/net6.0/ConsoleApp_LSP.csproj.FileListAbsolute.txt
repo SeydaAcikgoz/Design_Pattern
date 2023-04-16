@@ -1,0 +1,15 @@
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\ConsoleApp_LSP.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\ConsoleApp_LSP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\ConsoleApp_LSP.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\ConsoleApp_LSP.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\ConsoleApp_LSP.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\bin\Debug\net6.0\ConsoleApp_LSP.exe
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\bin\Debug\net6.0\ConsoleApp_LSP.deps.json
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\bin\Debug\net6.0\ConsoleApp_LSP.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\bin\Debug\net6.0\ConsoleApp_LSP.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\bin\Debug\net6.0\ConsoleApp_LSP.pdb
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\ConsoleApp_LSP.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\refint\ConsoleApp_LSP.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\ConsoleApp_LSP.pdb
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\ConsoleApp_LSP.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP\ConsoleApp_LSP\obj\Debug\net6.0\ref\ConsoleApp_LSP.dll
