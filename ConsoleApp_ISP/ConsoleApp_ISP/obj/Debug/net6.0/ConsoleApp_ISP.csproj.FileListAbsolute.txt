@@ -1,0 +1,15 @@
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\bin\Debug\net6.0\ConsoleApp_ISP.exe
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\bin\Debug\net6.0\ConsoleApp_ISP.deps.json
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\bin\Debug\net6.0\ConsoleApp_ISP.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\bin\Debug\net6.0\ConsoleApp_ISP.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\bin\Debug\net6.0\ConsoleApp_ISP.pdb
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\ConsoleApp_ISP.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\ConsoleApp_ISP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\ConsoleApp_ISP.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\ConsoleApp_ISP.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\ConsoleApp_ISP.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\ConsoleApp_ISP.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\refint\ConsoleApp_ISP.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\ConsoleApp_ISP.pdb
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\ConsoleApp_ISP.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_ISP\ConsoleApp_ISP\obj\Debug\net6.0\ref\ConsoleApp_ISP.dll
