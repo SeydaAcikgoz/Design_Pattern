@@ -1,0 +1,15 @@
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\bin\Debug\net6.0\ConsoleApp_LSP_Sample.exe
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\bin\Debug\net6.0\ConsoleApp_LSP_Sample.deps.json
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\bin\Debug\net6.0\ConsoleApp_LSP_Sample.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\bin\Debug\net6.0\ConsoleApp_LSP_Sample.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\bin\Debug\net6.0\ConsoleApp_LSP_Sample.pdb
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\ConsoleApp_LSP_Sample.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\ConsoleApp_LSP_Sample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\ConsoleApp_LSP_Sample.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\ConsoleApp_LSP_Sample.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\ConsoleApp_LSP_Sample.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\ConsoleApp_LSP_Sample.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\refint\ConsoleApp_LSP_Sample.dll
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\ConsoleApp_LSP_Sample.pdb
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\ConsoleApp_LSP_Sample.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\ConsoleApp_LSP_Sample\ConsoleApp_LSP_Sample\obj\Debug\net6.0\ref\ConsoleApp_LSP_Sample.dll
