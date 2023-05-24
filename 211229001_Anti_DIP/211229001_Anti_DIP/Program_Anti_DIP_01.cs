@@ -44,7 +44,7 @@ namespace _211229001_Anti_DIP
 
 
 
-            Console.WriteLine();
+            
             Console.WriteLine();
             Console.WriteLine();
 
