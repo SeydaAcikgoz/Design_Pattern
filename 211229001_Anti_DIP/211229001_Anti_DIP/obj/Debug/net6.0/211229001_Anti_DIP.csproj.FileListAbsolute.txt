@@ -1,0 +1,15 @@
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\bin\Debug\net6.0\211229001_Anti_DIP.exe
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\bin\Debug\net6.0\211229001_Anti_DIP.deps.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\bin\Debug\net6.0\211229001_Anti_DIP.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\bin\Debug\net6.0\211229001_Anti_DIP.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\bin\Debug\net6.0\211229001_Anti_DIP.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\211229001_Anti_DIP.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\211229001_Anti_DIP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\211229001_Anti_DIP.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\211229001_Anti_DIP.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\211229001_Anti_DIP.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\211229001_Anti_DIP.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\refint\211229001_Anti_DIP.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\211229001_Anti_DIP.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\211229001_Anti_DIP.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_DIP\211229001_Anti_DIP\obj\Debug\net6.0\ref\211229001_Anti_DIP.dll
