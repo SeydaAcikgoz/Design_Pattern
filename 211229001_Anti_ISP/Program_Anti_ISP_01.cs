@@ -57,7 +57,11 @@ namespace _211229001_Anti_ISP
             product.LogOut(1, CustomerList);
 
 
-           
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            
+            Customer_Anti_ISP_01 customer = new Customer_Anti_ISP_01();
 
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", CustomerList);
             Console.WriteLine();
