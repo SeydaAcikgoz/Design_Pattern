@@ -1,0 +1,15 @@
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\211229001_ISP.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\211229001_ISP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\211229001_ISP.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\211229001_ISP.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\211229001_ISP.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\bin\Debug\net6.0\211229001_ISP.exe
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\bin\Debug\net6.0\211229001_ISP.deps.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\bin\Debug\net6.0\211229001_ISP.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\bin\Debug\net6.0\211229001_ISP.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\bin\Debug\net6.0\211229001_ISP.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\211229001_ISP.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\refint\211229001_ISP.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\211229001_ISP.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\211229001_ISP.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_ISP\211229001_ISP\obj\Debug\net6.0\ref\211229001_ISP.dll
