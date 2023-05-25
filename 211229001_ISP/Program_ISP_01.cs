@@ -40,10 +40,9 @@ namespace _211229001_Anti_ISP
             Console.WriteLine();
             product.ShowProductsCategory(CategoryType.Beverages, product.ProductsList);
            
-
-
-
-            
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
 
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
