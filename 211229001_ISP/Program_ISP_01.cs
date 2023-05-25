@@ -42,9 +42,6 @@ namespace _211229001_Anti_ISP
            
 
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
 
             
 
