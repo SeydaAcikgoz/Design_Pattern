@@ -43,10 +43,6 @@ namespace _211229001_LSP
 
 
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-
 
 
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
