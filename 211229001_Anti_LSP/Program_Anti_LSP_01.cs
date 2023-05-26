@@ -56,8 +56,12 @@ namespace _211229001_Anti_LSP
             Console.WriteLine();
             product.LogOut(1, customer.CustomerList);
 
-
-
+            
+            Console.Writline();
+            Console.Writline();
+            Console.Writline();
+            
+            
             customer.LogIn(5, "seyda@gmail.com", "123Seyda");
             Console.WriteLine();
             customer.LogIn(1, "seda@gmail.com", "123Seyda");
