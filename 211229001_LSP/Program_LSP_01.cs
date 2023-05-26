@@ -41,6 +41,13 @@ namespace _211229001_LSP
             Console.WriteLine();
             product.ShowProductsCategory(1, product.ProductsList);
 
+            
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            
+            
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
             customer.LogIn(1, "seda@gmail.com", "123Seyda", customer.CustomerList);
