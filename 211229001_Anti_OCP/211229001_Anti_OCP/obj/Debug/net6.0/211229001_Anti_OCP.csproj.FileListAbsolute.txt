@@ -1,0 +1,15 @@
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\211229001_Anti_OCP.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\211229001_Anti_OCP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\211229001_Anti_OCP.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\211229001_Anti_OCP.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\211229001_Anti_OCP.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\bin\Debug\net6.0\211229001_Anti_OCP.exe
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\bin\Debug\net6.0\211229001_Anti_OCP.deps.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\bin\Debug\net6.0\211229001_Anti_OCP.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\bin\Debug\net6.0\211229001_Anti_OCP.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\bin\Debug\net6.0\211229001_Anti_OCP.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\211229001_Anti_OCP.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\refint\211229001_Anti_OCP.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\211229001_Anti_OCP.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\211229001_Anti_OCP.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Anti_OCP\211229001_Anti_OCP\obj\Debug\net6.0\ref\211229001_Anti_OCP.dll
