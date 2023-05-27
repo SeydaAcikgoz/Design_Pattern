@@ -42,6 +42,7 @@ namespace _211229001_OCP
             Console.WriteLine();
             product.ShowProductsCategory(1, product.ProductsList);
 
+            
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
