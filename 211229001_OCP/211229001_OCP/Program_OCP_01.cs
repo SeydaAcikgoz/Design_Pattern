@@ -44,9 +44,7 @@ namespace _211229001_OCP
 
 
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+           
 
 
 
