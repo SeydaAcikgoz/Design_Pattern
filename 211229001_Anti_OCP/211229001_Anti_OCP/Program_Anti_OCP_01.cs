@@ -58,8 +58,6 @@ namespace _211229001_Anti_OCP
             product.LogOut(1, customer.CustomerList);
 
 
-
-
             customer.LogIn(5, "seyda@gmail.com", "123Seyda");
             Console.WriteLine();
             customer.LogIn(1, "seda@gmail.com", "123Seyda");
