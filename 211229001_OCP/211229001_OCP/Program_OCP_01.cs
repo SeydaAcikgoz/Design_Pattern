@@ -44,10 +44,6 @@ namespace _211229001_OCP
 
 
 
-           
-
-
-
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
             customer.LogIn(1, "seda@gmail.com", "123Seyda", customer.CustomerList);
