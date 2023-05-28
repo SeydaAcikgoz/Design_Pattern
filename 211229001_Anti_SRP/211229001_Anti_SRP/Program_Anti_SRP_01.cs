@@ -58,9 +58,7 @@ namespace _211229001_Anti_ISP
             product.LogOut(1, customer.CustomerList);
 
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            
             
 
             customer.LogIn(5, "seyda@gmail.com", "123Seyda");
