@@ -57,7 +57,7 @@ namespace _211229001_Anti_ISP
             Console.WriteLine();
             product.LogOut(1, customer.CustomerList);
 
-Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
 
