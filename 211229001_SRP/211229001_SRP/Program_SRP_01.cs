@@ -42,9 +42,6 @@ namespace _211229001_SRP
 
 
 
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
 
 
 
