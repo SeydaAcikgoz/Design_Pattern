@@ -41,10 +41,6 @@ namespace _211229001_SRP
             product.ShowProductsCategory("Beverages", product.ProductsList);
 
 
-
-
-
-
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
             customer.LogIn(1, "seda@gmail.com", "123Seyda", customer.CustomerList);
