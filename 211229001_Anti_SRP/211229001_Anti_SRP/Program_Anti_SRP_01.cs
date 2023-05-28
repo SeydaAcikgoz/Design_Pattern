@@ -58,8 +58,6 @@ namespace _211229001_Anti_ISP
             product.LogOut(1, customer.CustomerList);
 
 
-            
-          
 
             customer.LogIn(5, "seyda@gmail.com", "123Seyda");
             Console.WriteLine();
