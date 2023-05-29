@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AbstractFactory_University/1.0.0": {
+        "runtime": {
+          "AbstractFactory_University.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AbstractFactory_University/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
