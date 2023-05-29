@@ -25,7 +25,8 @@ namespace AbstractFactory_University
              List<Course> courses = universityFactory2.CreateCourses();
              Console.WriteLine(" courses.Sum(a => a.KrediHesapla())" + courses.Sum(x => x.KrediHesapla2()));
              Console.WriteLine("courses.Count: " + courses.Count);
-            */
+             
+            Abstract Factory uygun olmayan kısım-end*/
 
             // client ile..
 
