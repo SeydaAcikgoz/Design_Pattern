@@ -11,7 +11,8 @@ namespace AbstractFactory_University
     {
         static void Main(string[] args)
         {
-            /*Abstract Factory uygun olmayan kısım
+            /*Abstract Factory uygun olmayan kısım-start
+            
             IUniversityFactory universityFactory = new AUniversityFactory();
 
              Course course = universityFactory.CreateCourse();
