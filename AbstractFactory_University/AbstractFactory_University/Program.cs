@@ -28,7 +28,7 @@ namespace AbstractFactory_University
              
             Abstract Factory uygun olmayan kısım-end*/
 
-            // client ile..
+            // client ile..(Abstract Factory uygun kısım)
 
             IUniversityFactory universityFactory = new BUniversityFactory();
             Client client = new Client(universityFactory);
