@@ -7,7 +7,10 @@ namespace FactoryMethod_Customer
     {
         static void Main(string[] args)
         {
-            /*  IFactory managerFactory = new ManagerFactory();
+            /*
+            Factory Method a uygun olmayan kısım
+            
+            IFactory managerFactory = new ManagerFactory();
 
             Employee manager1 = managerFactory.Create("ali");
             Console.WriteLine(manager1.ToString());
