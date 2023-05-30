@@ -12,16 +12,16 @@ namespace FactoryMethod_Customer
             
             IFactory managerFactory = new ManagerFactory();
 
-            Employee manager1 = managerFactory.Create("ali");
+            Employee manager1 = managerFactory.Create("Ali");
             Console.WriteLine(manager1.ToString());
-            Employee manager2 = managerFactory.Create("veli");
+            Employee manager2 = managerFactory.Create("Veli");
             Console.WriteLine(manager1.ToString());
 
             IFactory directorFactory = new DirectorFactory();
 
-            Employee director1 = directorFactory.Create("ayse");
+            Employee director1 = directorFactory.Create("Ayse");
             Console.WriteLine(director1.ToString());
-            Employee director2 = directorFactory.Create("fatma");
+            Employee director2 = directorFactory.Create("Fatma");
             Console.WriteLine(director2.ToString());
 
          */
