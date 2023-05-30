@@ -28,12 +28,12 @@ namespace FactoryMethod_Customer
 
             /*Factory Method a uygun olan kısım*/
             IDirectorFactory_FM directorFactory1 = new DirectorFactor_FM();
-            Director director1 = directorFactory1.Create("ali", 1000);
-            Director director2 = directorFactory1.Create("veli", 2500);
+            Director director1 = directorFactory1.Create("Ali", 1000);
+            Director director2 = directorFactory1.Create("Veli", 2500);
 
             IManagerFactory_FM managerFactory1 = new ManagerFactor_FM();
-            Manager manager1 = managerFactory1.Create("ayse");
-            Manager manager2 = managerFactory1.Create("fatma");
+            Manager manager1 = managerFactory1.Create("Ayse");
+            Manager manager2 = managerFactory1.Create("Fatma");
 
             List<Director> employees = new List<Director>() { director1, director2 };
 
