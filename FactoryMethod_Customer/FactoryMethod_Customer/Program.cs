@@ -26,7 +26,7 @@ namespace FactoryMethod_Customer
 
          */
 
-            /**/
+            /*Factory Method a uygun olan kısım*/
             IDirectorFactory_FM directorFactory1 = new DirectorFactor_FM();
             Director director1 = directorFactory1.Create("ali", 1000);
             Director director2 = directorFactory1.Create("veli", 2500);
