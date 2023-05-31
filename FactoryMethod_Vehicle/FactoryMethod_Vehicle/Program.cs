@@ -7,7 +7,9 @@ namespace FactoryMethod_Vehicle
     {
         static void Main(string[] args)
         {
-            /* List<Arac> aracList = new List<Arac>();
+            /*Factory Method'a uygun olmayan kısım
+            
+            List<Arac> aracList = new List<Arac>();
 
              aracList.Add(new Bisiklet("my bike"));
              aracList.Add(new Otomobil("sahin"));
