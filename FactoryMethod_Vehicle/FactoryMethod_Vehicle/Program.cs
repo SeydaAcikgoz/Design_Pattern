@@ -21,7 +21,7 @@ namespace FactoryMethod_Vehicle
                  item.HareketEt(50);
              }*/
 
-
+            //Factory Method'a uygun kısım
             VehicleFactory concreteVehicleFactory = new VehicleFactory();
 
 
