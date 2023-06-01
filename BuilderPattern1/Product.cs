@@ -24,7 +24,6 @@ namespace BuilderPattern1
             {
                 str = str + item.ToString() + "  \t";
             }
-
             Console.WriteLine("items: " + str);
         }
     }
