@@ -21,7 +21,6 @@ namespace BuilderPattern1
             director.BuildFullFeaturedProduct();
             builder.GetProduct().ListParts();
             
-            
             Console.WriteLine("Özel üretim olsun:");
             builder.BuildPartA();
             builder.BuildPartC();
