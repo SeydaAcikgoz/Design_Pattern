@@ -14,6 +14,7 @@ namespace BuilderPattern1
         {
             product = new Product();
         }
+        
         public void BuildPartA()
         {
             this.product.Insert("PartA1");
@@ -28,6 +29,7 @@ namespace BuilderPattern1
         {
             this.product.Insert("PartC1");
         }
+        
         public Product GetProduct()
         {
             Product result = this.product;
