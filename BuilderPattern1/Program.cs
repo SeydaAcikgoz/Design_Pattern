@@ -15,7 +15,6 @@ namespace BuilderPattern1
             Console.WriteLine("Minimal  ürün:");
             director.BuildMinimalProduct();
 
-
             builder.GetProduct().ListParts();
 
             Console.WriteLine("Tüm özelliklere sahip ürün:");
