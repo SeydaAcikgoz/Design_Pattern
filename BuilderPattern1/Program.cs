@@ -20,7 +20,8 @@ namespace BuilderPattern1
             Console.WriteLine("Tüm özelliklere sahip ürün:");
             director.BuildFullFeaturedProduct();
             builder.GetProduct().ListParts();
-
+            
+            
             Console.WriteLine("Özel üretim olsun:");
             builder.BuildPartA();
             builder.BuildPartC();
