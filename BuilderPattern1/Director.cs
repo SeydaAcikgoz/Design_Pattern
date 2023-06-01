@@ -15,7 +15,6 @@ namespace BuilderPattern1
             this._builder = builder;
         }
 
-
         public void BuildMinimalProduct()
         {
             this._builder.BuildPartA();
