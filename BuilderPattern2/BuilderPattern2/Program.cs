@@ -9,7 +9,7 @@ namespace BuilderPattern2
         static void Main(string[] args)
         {
 
-            /* 
+            /* Builder Pattern a uygun olmayan kısım
                Musteri.Builder builder1 = new Musteri.Builder("ahmet", "celebi");
                Musteri musteri3 = builder1.MaasEkle((decimal)12000.45).YasEkle(20).Build();
 
