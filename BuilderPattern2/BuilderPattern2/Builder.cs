@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BuilderPattern2
 {
-    public partial class Musteri//partial:sınıfları bölüp başka yerde kullanmayı sağlar
+    public partial class Musteri    //partial:sınıfları bölüp başka yerde kullanmayı sağlar
     {
-        public class Builder//inner class
+        public class Builder    //inner class
         {
             public string adi, soyadi;
             public int yas;
@@ -25,7 +25,7 @@ namespace BuilderPattern2
             public Builder AdEkle(String adi)
             {
                 this.adi = adi;
-                return this;//gönderilen nesneye yükleme yapıp geri döndürdü
+                return this;    //gönderilen nesneye yükleme yapıp geri döndürdü
             }
 
             public Builder SoyadEkle(String soyadi)
@@ -48,7 +48,7 @@ namespace BuilderPattern2
 
             public Musteri Build()
             {
-                return new Musteri(this);//builder ı musteriye çevir
+                return new Musteri(this);   //builder ı musteriye çevir
             }
 
         }
