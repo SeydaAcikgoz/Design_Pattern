@@ -20,7 +20,7 @@ namespace BuilderPattern2
 
                Console.WriteLine(musteri.ToString());*/
 
-            //
+            //Builder Pattern a uygun olmayan kısım
             Musteri.Builder builder = new Musteri.Builder("ALİ", "YILMAZ");
 
             Console.WriteLine("musteri yasi giriniz: ");
