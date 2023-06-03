@@ -14,6 +14,7 @@ namespace DependencyInjection_Engine
             // arac.HareketEt();
 
 
+            //Depency Injection uygun olmayan kısım
             IMotor motor = new ElektrikMotor_DI();
             IArac arac1 = new Arac_DI(motor);
             arac1.HareketEt();
