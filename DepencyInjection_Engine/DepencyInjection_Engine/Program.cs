@@ -9,7 +9,7 @@ namespace DependencyInjection_Engine
     {
         static void Main(string[] args)
         {
-            //
+            //Depency Injection uygun olmayan kısım
             // _Arac arac = new _Arac();
             // arac.HareketEt();
 
