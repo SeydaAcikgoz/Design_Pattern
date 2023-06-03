@@ -14,6 +14,7 @@ namespace DepencyInjection_Engine
         }
     }
 
+    
     public class _BenzinMotor
     {
         public void Baslat()
