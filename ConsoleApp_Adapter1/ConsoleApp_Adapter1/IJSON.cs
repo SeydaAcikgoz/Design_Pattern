@@ -9,6 +9,7 @@ namespace ConsoleApp_Adapter1
     public interface IJSON
     {
         public void Read1();
+        
         public string FileName { get; set; }
     }
 }
