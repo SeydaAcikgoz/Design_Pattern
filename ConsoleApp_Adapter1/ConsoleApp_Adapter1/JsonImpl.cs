@@ -8,8 +8,10 @@ namespace ConsoleApp_Adapter1
 {
     public class JsonImpl : IJSON //JsonImpl->Json implementation u
     {
+        
         public string FileName { get; set; }
 
+        
         public void Read1()
         {
             Console.WriteLine(FileName + " Json dosya okunuyor");
