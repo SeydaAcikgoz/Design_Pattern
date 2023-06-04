@@ -9,6 +9,7 @@ namespace ConsoleApp_Adapter1
     public interface IXML
     {
         public void Write();
+        
         public void Read();
     }
 }
