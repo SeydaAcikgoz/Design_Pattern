@@ -7,8 +7,7 @@
         {
             IXML xml = new XMLImp();
             IJSON json = new JsonImpl();
-
-            IJSON xmlAdapter = new XMLAdapter(xml);
+             IJSON xmlAdapter = new XMLAdapter(xml);
 
             xml.Write();
             xml.Read();
