@@ -9,12 +9,15 @@
             IJSON json = new JsonImpl();
              IJSON xmlAdapter = new XMLAdapter(xml);
 
+            
             xml.Write();
             xml.Read();
 
+            
             json.FileName = "customer.json";
             json.Read1();
 
+            
             xmlAdapter.Read1();
 
         }
