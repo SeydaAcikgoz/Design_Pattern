@@ -11,6 +11,7 @@ namespace ConsoleApp_Adapter1
         public string FileName { get; set; }
 
         IXML xml;
+        
         public XMLAdapter(IXML xml)
         {
             this.xml = xml;
