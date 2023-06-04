@@ -12,6 +12,8 @@ namespace ConsoleApp_Adapter1
         {
             Console.WriteLine("Xml dosya yaziliyor");
         }
+        
+        
         public void Read()
         {
             Console.WriteLine("Xml dosya okunuyor..");
