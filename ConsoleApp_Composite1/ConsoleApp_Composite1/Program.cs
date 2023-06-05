@@ -6,6 +6,7 @@
 
         static void Main(string[] args)
         {
+            //
             Canvas canvas = new Canvas("canvas1", "kırmızı");
 
             IGraphic graphic1 = new Circle("cir1", "sarı");
