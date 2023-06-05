@@ -8,12 +8,13 @@ using System.Xml.Linq;
 
 namespace ConsoleApp_Composite1
 {
-    public class CanvasX:Canvas{    //aşağıdaki protected listeye böyle ulaşılabilir
+    public class CanvasX:Canvas{    //aşağıdaki protected listeye böyle ulaşılabilir(listeye ulaşmka için yazılmıştır)
         public CanvasX(String name, String color) : base(name, color)
         {
             listOfGraphics = new List<IGraphic>();
         }
     }
+    
     public class Canvas : GraphicObject, ICompositeGraphic
     {
         protected List<IGraphic> listOfGraphics;
