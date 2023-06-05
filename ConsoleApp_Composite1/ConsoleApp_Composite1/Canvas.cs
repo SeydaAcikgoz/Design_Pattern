@@ -17,6 +17,7 @@ namespace ConsoleApp_Composite1
     
     public class Canvas : GraphicObject, ICompositeGraphic
     {
+    
         protected List<IGraphic> listOfGraphics;
 
         public Canvas(String name, String color) : base(name, color)
@@ -35,12 +36,14 @@ namespace ConsoleApp_Composite1
 
         }
 
+
         public override void Erase()
         {
             Console.WriteLine("\nErasing canvas: " + name);
             foreach (var graphic in listOfGraphics)
                 graphic.Erase();
         }
+
 
         public override void Paint()
         {
