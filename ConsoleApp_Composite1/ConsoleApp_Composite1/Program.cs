@@ -6,7 +6,7 @@
 
         static void Main(string[] args)
         {
-            //
+            //Yapısal kalıplar (structural patterns) dan Composite kalıbına örnek
             Canvas canvas = new Canvas("canvas1", "kırmızı");
 
             IGraphic graphic1 = new Circle("cir1", "sarı");
