@@ -6,8 +6,7 @@
         static void Main(string[] args)
         {
 
-            Computer computer = new Computer();
-            computer.Start();
+            
             
         }
     }
