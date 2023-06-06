@@ -8,7 +8,7 @@ namespace ConsoleApp_Facade
 {
     public class ROM
     {
-        private int size;  // Size of ROM in MB
+        private int size;  
 
         public ROM(int size)
         {
