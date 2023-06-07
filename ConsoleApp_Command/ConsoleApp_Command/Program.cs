@@ -11,16 +11,13 @@ namespace ConsoleApp_Command
             Account account = new Account(10000);
 
             ITransaction transaction = new Withdraw();
-
             transaction.SetAccount(account);
-
             transaction.Execute(2000);
             Console.WriteLine(account);  
             transaction.Redo();
             Console.WriteLine(account);
             transaction.Redo();
             Console.WriteLine(account);
-
             Console.WriteLine(transaction);
 
 
