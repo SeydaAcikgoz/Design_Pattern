@@ -1,0 +1,14 @@
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\bin\Debug\netcoreapp3.1\ConsoleApp_Command.exe
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\bin\Debug\netcoreapp3.1\ConsoleApp_Command.deps.json
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\bin\Debug\netcoreapp3.1\ConsoleApp_Command.runtimeconfig.json
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\bin\Debug\netcoreapp3.1\ConsoleApp_Command.runtimeconfig.dev.json
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\bin\Debug\netcoreapp3.1\ConsoleApp_Command.dll
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\bin\Debug\netcoreapp3.1\ConsoleApp_Command.pdb
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\obj\Debug\netcoreapp3.1\ConsoleApp_Command.csproj.AssemblyReference.cache
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\obj\Debug\netcoreapp3.1\ConsoleApp_Command.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\obj\Debug\netcoreapp3.1\ConsoleApp_Command.AssemblyInfoInputs.cache
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\obj\Debug\netcoreapp3.1\ConsoleApp_Command.AssemblyInfo.cs
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\obj\Debug\netcoreapp3.1\ConsoleApp_Command.csproj.CoreCompileInputs.cache
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\obj\Debug\netcoreapp3.1\ConsoleApp_Command.dll
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\obj\Debug\netcoreapp3.1\ConsoleApp_Command.pdb
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Command\ConsoleApp_Command\obj\Debug\netcoreapp3.1\ConsoleApp_Command.genruntimeconfig.cache
