@@ -39,8 +39,7 @@ namespace ConsoleApp_Command
 
             List<ITransaction> transactions = account.GetTransactions();
           
-            foreach (ITransaction item in transactions)
-                Console.WriteLine(item);
+            
 
         }
     }
