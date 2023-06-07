@@ -6,7 +6,7 @@ namespace ConsoleApp_Command
     {
         public void Execute(int amount);
 
-        public void Undo();
+        public void Undo(); //işlemi geri alır
 
         public void Redo(); //işlemi tekrarlar
 
