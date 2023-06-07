@@ -4,7 +4,7 @@ namespace ConsoleApp_Command
 {
     public interface ITransaction
     {
-        public void Execute(int amount);
+        public void Execute(int amount);    //işlemi yapar
 
         public void Undo(); //işlemi geri alır
 
