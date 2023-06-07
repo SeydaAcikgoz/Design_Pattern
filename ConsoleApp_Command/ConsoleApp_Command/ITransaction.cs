@@ -8,7 +8,7 @@ namespace ConsoleApp_Command
 
         public void Undo();
 
-        public void Redo();
+        public void Redo(); //işlemi tekrarlar
 
         public List<ITransaction> GetTransactions();
 
