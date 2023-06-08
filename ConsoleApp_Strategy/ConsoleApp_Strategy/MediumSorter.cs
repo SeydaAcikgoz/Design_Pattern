@@ -18,7 +18,6 @@ namespace ConsoleApp_Strategy
             }
 
             Console.WriteLine(" ilk " + size + " veri için sırala");
-
         }
     }
 }
