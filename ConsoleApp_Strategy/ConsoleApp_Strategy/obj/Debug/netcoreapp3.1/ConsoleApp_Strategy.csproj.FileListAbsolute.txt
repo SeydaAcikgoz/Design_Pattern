@@ -1,0 +1,28 @@
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.exe
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.deps.json
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.runtimeconfig.json
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.runtimeconfig.dev.json
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.dll
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.pdb
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.csproj.AssemblyReference.cache
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.AssemblyInfoInputs.cache
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.AssemblyInfo.cs
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.csproj.CoreCompileInputs.cache
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.dll
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.pdb
+E:\Dersler\Yazılım Tasarım Desenleri\10. Hafta (Strategy & Command)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.exe
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.deps.json
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.runtimeconfig.dev.json
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.dll
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\bin\Debug\netcoreapp3.1\ConsoleApp_Strategy.pdb
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.dll
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.pdb
+C:\Users\90505\source\repos\design_pattern\hafta10\10. Hafta (Strategy  Command Kodları)\ConsoleApp_Strategy\ConsoleApp_Strategy\obj\Debug\netcoreapp3.1\ConsoleApp_Strategy.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ooblQPwnQNuhl/xPvkPFLsXUgp3PpY/IRxUsbiHE9K6dDCygOW+SMh8LkX0TUz2EqMFbMXo1Ma+3ita/i021jw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\90505\\source\\repos\\design_pattern\\hafta10\\10. Hafta (Strategy  Command Kodları)\\ConsoleApp_Strategy\\ConsoleApp_Strategy\\ConsoleApp_Strategy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\90505\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\90505\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\90505\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\90505\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
