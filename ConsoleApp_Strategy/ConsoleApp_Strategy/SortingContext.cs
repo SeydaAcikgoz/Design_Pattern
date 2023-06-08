@@ -20,7 +20,6 @@
             {
                 largeSorter.Sort(array, size);
             }
-
         }
 
     }
