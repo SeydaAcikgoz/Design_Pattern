@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ConsoleApp_Strategy
 {
-    public class Sorter_Basic // tasarım desenine uygun değildir 
+    public class Sorter_Basic //Strategy tasarım desenine uygun değildir.
     {
         public void Sort(double[] array, int size)
         {
