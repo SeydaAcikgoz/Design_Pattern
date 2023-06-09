@@ -1,0 +1,15 @@
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\211229001_AbstractFactory.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\211229001_AbstractFactory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\211229001_AbstractFactory.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\211229001_AbstractFactory.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\211229001_AbstractFactory.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\bin\Debug\net6.0\211229001_AbstractFactory.exe
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\bin\Debug\net6.0\211229001_AbstractFactory.deps.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\bin\Debug\net6.0\211229001_AbstractFactory.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\bin\Debug\net6.0\211229001_AbstractFactory.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\bin\Debug\net6.0\211229001_AbstractFactory.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\211229001_AbstractFactory.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\refint\211229001_AbstractFactory.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\211229001_AbstractFactory.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\211229001_AbstractFactory.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_AbstractFactory\211229001_AbstractFactory\obj\Debug\net6.0\ref\211229001_AbstractFactory.dll
