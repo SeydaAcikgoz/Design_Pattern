@@ -8,10 +8,7 @@ namespace _211229001_AbstractFactory
 {
     public class GoldCustomer_AF_01:Customer_AF_01
     {
-        public GoldCustomer_AF_01()
-        {
-
-        }
+       
         public GoldCustomer_AF_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -24,6 +21,11 @@ namespace _211229001_AbstractFactory
             this.Email = email;
             this.Password = password;
             this.LoginStatus = loginStatus;
+        }
+        
+         public GoldCustomer_AF_01()
+        {
+
         }
     }
 }
