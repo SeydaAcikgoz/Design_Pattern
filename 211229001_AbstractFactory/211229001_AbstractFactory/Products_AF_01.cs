@@ -18,10 +18,7 @@ namespace _211229001_AbstractFactory
         public List<Products_AF_01> ProductsList = new List<Products_AF_01>();
         public List<Products_AF_01> basket = new List<Products_AF_01>();
 
-        public Products_AF_01()
-        {
-        }
-
+       
         public Products_AF_01(int code, string ProductName, int category, int Stock, double Price)
         {
             this.Code = code;
@@ -30,6 +27,10 @@ namespace _211229001_AbstractFactory
             this.Stock = Stock;
             this.Price = Price;
         }
+         public Products_AF_01()
+        {
+        }
+
        
         public void CreateProductList()
         {
