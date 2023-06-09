@@ -19,13 +19,8 @@ namespace _211229001_AbstractFactory
         public string Password;
         public bool LoginStatus;
 
-        public List<Customer_AF_01> CustomerList = new List<Customer_AF_01>();
-
-
         public bool login = false;
-        public Customer_AF_01()
-        {
-        }
+        public List<Customer_AF_01> CustomerList = new List<Customer_AF_01>();
 
 
         public Customer_AF_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
@@ -40,6 +35,9 @@ namespace _211229001_AbstractFactory
             this.Email = email;
             this.Password = password;
             this.LoginStatus = loginStatus;
+        }
+        public Customer_AF_01()
+        {
         }
 
         Products_AF_01 Product = new Products_AF_01();
