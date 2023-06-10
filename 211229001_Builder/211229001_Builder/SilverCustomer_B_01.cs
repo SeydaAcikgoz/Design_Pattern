@@ -25,7 +25,6 @@ namespace _211229001_Builder
 
         public SilverCustomer_B_01()
         {
-
         }
     }
 }
