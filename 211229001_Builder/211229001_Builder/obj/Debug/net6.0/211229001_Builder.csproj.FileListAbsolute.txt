@@ -1,0 +1,15 @@
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\211229001_Builder.csproj.AssemblyReference.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\211229001_Builder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\211229001_Builder.AssemblyInfoInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\211229001_Builder.AssemblyInfo.cs
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\211229001_Builder.csproj.CoreCompileInputs.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\bin\Debug\net6.0\211229001_Builder.exe
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\bin\Debug\net6.0\211229001_Builder.deps.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\bin\Debug\net6.0\211229001_Builder.runtimeconfig.json
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\bin\Debug\net6.0\211229001_Builder.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\bin\Debug\net6.0\211229001_Builder.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\211229001_Builder.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\refint\211229001_Builder.dll
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\211229001_Builder.pdb
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\211229001_Builder.genruntimeconfig.cache
+C:\Users\90505\source\repos\design_pattern\211229001_Seyda_Acikgoz\211229001_Builder\211229001_Builder\obj\Debug\net6.0\ref\211229001_Builder.dll
