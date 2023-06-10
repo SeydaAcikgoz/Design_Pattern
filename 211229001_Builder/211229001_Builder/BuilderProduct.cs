@@ -56,7 +56,7 @@ namespace _211229001_Builder
 
             public Products_B_01 Build()
             {
-                return new Products_B_01(this);
+                return new Products_B_01(this); //nesneye yükleme yapıldı
             }
         }
     }
