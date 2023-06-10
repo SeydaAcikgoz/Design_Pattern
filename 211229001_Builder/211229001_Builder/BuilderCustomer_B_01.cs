@@ -39,11 +39,13 @@ namespace _211229001_Builder
                 this.UserNo = userNo;
                 return this;
             }
+            
             public BuilderCustomer_B_01 AddName(string userName)
             {
                 this.UserName = userName;
                 return this;
             }
+            
             public BuilderCustomer_B_01 AddSurname(string userSurname)
             {
                 this.UserSurname= userSurname;
@@ -94,11 +96,9 @@ namespace _211229001_Builder
                 return this;
             }
 
-
-
             public Customer_B_01 Build()
             {
-                return new Customer_B_01(this);
+                return new Customer_B_01(this);//gelen nesneye yükleme yapıldı
             }
         }
     }
