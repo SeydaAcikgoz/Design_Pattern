@@ -23,11 +23,7 @@ namespace _211229001_Builder
 
 
         public bool login = false;
-        public Customer_B_01()
-        {
-        }
-
-
+       
 
         public Customer_B_01(BuilderCustomer_B_01 builder)
         {
@@ -41,6 +37,10 @@ namespace _211229001_Builder
             this.Email = builder.Email;
             this.Password = builder.Password;
             this.LoginStatus = builder.LoginStatus;
+        }
+        
+         public Customer_B_01()
+        {
         }
 
         Products_B_01 Product = new Products_B_01();
