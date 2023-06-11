@@ -9,7 +9,6 @@ namespace _211229001_Dependecy_Injection
     internal interface IProductTransactions_DI_01
     {
         public void LogIn(int cod, string email, string password, List<Customer_DI_01> CustomerList);
-
         public void AddBasket(int USerCode, int ProductCode, List<Products_DI_01> ProductsList);
         public void ShowBasket();
         public void FindPrice(int ProductCode, List<Products_DI_01> ProductsList);
