@@ -14,8 +14,6 @@ namespace _211229001_SRP
             Customer_DI_01 customer = new Customer_DI_01();
             Products_DI_01 product = new Products_DI_01();
 
-            
-
 
             ICustomerCategory_DI_01 category1 = new BronzCustomer_DI_01();
             ICustomer_DI_01 Customer=new Customer_DI_01(category1);
@@ -24,7 +22,6 @@ namespace _211229001_SRP
 
 
             product.CreateProductList();
-            
             product.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
             product.LogIn(1, "seda@gmail.com", "123Seyda", customer.CustomerList);
