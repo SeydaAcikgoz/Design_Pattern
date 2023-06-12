@@ -19,7 +19,6 @@ namespace _211229001_FactoryMethod
 
         public Confections_FM_01()
         {
-
         }
 
         public Confections_FM_01 Create(int code, string ProductName, int category, int Stock, double Price)
