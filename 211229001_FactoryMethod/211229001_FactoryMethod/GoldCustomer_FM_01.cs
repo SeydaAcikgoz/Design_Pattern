@@ -8,10 +8,7 @@ namespace _211229001_FactoryMethod
 {
     public class GoldCustomer_FM_01:Customer_FM_01
     {
-        public GoldCustomer_FM_01()
-        {
-
-        }
+        
         public GoldCustomer_FM_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -24,6 +21,10 @@ namespace _211229001_FactoryMethod
             this.Email = email;
             this.Password = password;
             this.LoginStatus = loginStatus;
+        }
+        
+        public GoldCustomer_FM_01()
+        {
         }
 
         public GoldCustomer_FM_01 Create(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
