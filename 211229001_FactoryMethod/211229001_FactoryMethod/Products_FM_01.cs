@@ -18,10 +18,7 @@ namespace _211229001_FactoryMethod
         public List<Products_FM_01> ProductsList = new List<Products_FM_01>();
         public List<Products_FM_01> basket = new List<Products_FM_01>();
 
-        public Products_FM_01()
-        {
-        }
-
+        
         public Products_FM_01(int code, string ProductName, int category, int Stock, double Price)
         {
             this.Code = code;
@@ -30,6 +27,11 @@ namespace _211229001_FactoryMethod
             this.Stock = Stock;
             this.Price = Price;
         }
+        
+        public Products_FM_01()
+        {
+        }
+
         public void CreateProductList()
         {
 
