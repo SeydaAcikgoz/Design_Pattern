@@ -18,14 +18,9 @@ namespace _211229001_FactoryMethod
         public string Email;
         public string Password;
         public bool LoginStatus;
-
-        public List<Customer_FM_01> CustomerList = new List<Customer_FM_01>();
-
-
         public bool login = false;
-        public Customer_FM_01()
-        {
-        }
+        
+        public List<Customer_FM_01> CustomerList = new List<Customer_FM_01>();
 
 
         public Customer_FM_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
@@ -40,6 +35,10 @@ namespace _211229001_FactoryMethod
             this.Email = email;
             this.Password = password;
             this.LoginStatus = loginStatus;
+        }
+        
+         public Customer_FM_01()
+        {
         }
 
         Products_FM_01 Product = new Products_FM_01();
