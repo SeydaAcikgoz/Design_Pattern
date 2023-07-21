@@ -56,11 +56,10 @@ namespace _211229001_Command
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
+        
         public void LogInControl(string email, string password, Customer_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -73,9 +72,7 @@ namespace _211229001_Command
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
-
 
         public void LogOut(int UserNo, List<Customer_01> CustomerList)
         {
@@ -103,7 +100,6 @@ namespace _211229001_Command
 
         public void StockControl(Products_01 products)
         {
-
             if (products.Stock > 0)
             {
                 Product.basket.Add(products);
@@ -113,9 +109,7 @@ namespace _211229001_Command
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_01> ProductsList)
         {
@@ -156,7 +150,6 @@ namespace _211229001_Command
             });
 
             Console.WriteLine("Listed products have been shipped to the address " + customer.Adress);
-
         }
 
         public void IncreasePoints(Customer_01 customer)
@@ -164,6 +157,7 @@ namespace _211229001_Command
             customer.Point += Product.basket.Count() * 10;
             Console.WriteLine("Current point:" + customer.Point);
         }
+        
         public void Payment(Customer_01 customer, double total)
         {
             Console.WriteLine("Price:" + total);
@@ -238,7 +232,6 @@ namespace _211229001_Command
             }
         }
 
-
         public void FindPrice(int ProductCode, List<Products_01> ProductsList)
         {
             bool product = false;
@@ -252,8 +245,8 @@ namespace _211229001_Command
             });
             if (!product)
                 Console.WriteLine("Product not found!");
-
         }
+        
         public void FindStock(int ProductCode, List<Products_01> ProductsList)
         {
             bool product = false;
