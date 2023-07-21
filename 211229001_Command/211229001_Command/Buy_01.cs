@@ -25,8 +25,6 @@ namespace _211229001_Command
             {
                 Console.WriteLine("Can't withdraw: " + e.Message);
             }
-
         }
-
     }
 }
