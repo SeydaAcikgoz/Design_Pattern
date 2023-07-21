@@ -19,7 +19,6 @@ namespace _211229001_Command
 
         public Confections_01()
         {
-
         }
     }
 }
