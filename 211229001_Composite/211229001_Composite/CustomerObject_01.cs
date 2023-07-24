@@ -21,15 +21,11 @@ namespace _211229001_Composite
 
         public List<CustomerObject_01> CustomerList = new List<CustomerObject_01>();
 
-
         public bool login = false;
-        public CustomerObject_01()
-        {
+        public CustomerObject_01() {
         }
 
-
-        public CustomerObject_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
-        {
+        public CustomerObject_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus){
             this.UserNo = userno;
             this.UserName = userName;
             this.UserSurname = userSurname;
@@ -55,10 +51,9 @@ namespace _211229001_Composite
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
-        public void LogInControl(string email, string password, CustomerObject_01 customer)
-        {
+        
+        public void LogInControl(string email, string password, CustomerObject_01 customer) {
 
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
