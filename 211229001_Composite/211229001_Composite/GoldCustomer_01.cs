@@ -10,7 +10,6 @@ namespace _211229001_Composite
     {
         public GoldCustomer_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus) : base(userno, userName, userSurname, adress, UserAmount, point, customerType, email, password, loginStatus)
         {
-
         }
     }
 }
