@@ -8,7 +8,6 @@ namespace _211229001_Composite
 {
     public interface ICompositeProduct_01
     {
-
         public void AddProducts(ProductObject_01 product);
 
         public void ListProducts();
