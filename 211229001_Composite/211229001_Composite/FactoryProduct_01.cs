@@ -20,7 +20,6 @@ namespace _211229001_Composite
 
         public void ListProducts()
         {
-
             Console.WriteLine("\nProduct objects:");
 
             foreach (ProductObject_01 products in ProductsList)
