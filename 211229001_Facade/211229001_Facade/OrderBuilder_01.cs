@@ -12,10 +12,10 @@ namespace _211229001_Facade
         private ProductTransactions_01 productTransaction;
         private OrderTransactions_01 orderTransaction;
 
-
         public OrderBuilder_01()
         {
         }
+        
         public OrderBuilder_01(int UserCode, List<Products_01> ProductsList, List<Customer_01> CustomerList, List<Products_01> basket, Customer_01 customer)
         {
             customerTransaction = new CustomerTransactions_01();
@@ -31,8 +31,6 @@ namespace _211229001_Facade
             orderTransaction.Shipping(customer, basket);
 
         }
-
-
     }
 }
 
