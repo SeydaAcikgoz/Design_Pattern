@@ -20,7 +20,6 @@ namespace _211229001_Facade
 
         public Confections_01()
         {
-
         }
 
         public Confections_01(List<Products_01> ProductsList)
