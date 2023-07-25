@@ -19,20 +19,16 @@ namespace _211229001_Facade
 
         }
 
-
         public void StockControl(Products_01 products, List<Products_01> basket)
         {
-
             if (products.Stock > 0)
             {
                 basket.Add(products);
                 products.Stock--;
-            }
-            else
+            } else
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
 
         public void AddBasket(int ProductCode, List<Products_01> ProductsList, List<Products_01> basket)
@@ -68,11 +64,7 @@ namespace _211229001_Facade
 
                 });
             }
-           
-
-            
-
-        }
+         }
 
 
         public void CalculateBasket(List<Products_01> basket)
