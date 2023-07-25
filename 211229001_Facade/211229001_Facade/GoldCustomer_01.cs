@@ -24,7 +24,6 @@ namespace _211229001_Facade
 
         public GoldCustomer_01()
         {
-
         }
     }
 }
