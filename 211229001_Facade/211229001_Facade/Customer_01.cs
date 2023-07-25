@@ -19,12 +19,9 @@ namespace _211229001_Facade
         public string Password;
         public bool LoginStatus;
 
-        
-
         public Customer_01()
         {
         }
-
 
         public Customer_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
