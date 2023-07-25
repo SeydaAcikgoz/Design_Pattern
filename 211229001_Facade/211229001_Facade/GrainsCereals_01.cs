@@ -26,9 +26,7 @@ namespace _211229001_Facade
 
         public GrainsCereals_01()
         {
-
         }
-
 
         public GrainsCereals_01 CreateGrainsCereals(List<Products_01> ProductsList)
         {
