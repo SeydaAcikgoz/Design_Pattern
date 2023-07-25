@@ -21,7 +21,6 @@ namespace _211229001_Facade
         {
         }
 
-
         public Beverages_01(List<Products_01> ProductsList)
         {
             beverages = new Beverages_01 ();
