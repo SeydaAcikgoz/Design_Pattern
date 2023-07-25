@@ -11,9 +11,7 @@ namespace _211229001_Facade
         
         private ProductTransactions_01 productTransactions = new ProductTransactions_01();
 
-
         private bool login = false;
-
 
         public void LogIn(int cod, string email, string password, List<Customer_01> CustomerList)
         {
@@ -28,6 +26,7 @@ namespace _211229001_Facade
                 Console.WriteLine("User not found!");
 
         }
+        
         public void LogInControl(string email, string password, Customer_01 customer)
         {
 
@@ -51,6 +50,7 @@ namespace _211229001_Facade
             customer.Point += basket.Count() * 10;
             Console.WriteLine("Current point:" + customer.Point);
         }
+        
         public void Payment(Customer_01 customer, double total, List<Products_01> basket)
         {
             Console.WriteLine("Price:" + total);
@@ -67,10 +67,7 @@ namespace _211229001_Facade
             {
                 total = total - (total * 5 / 100);
             }
-
             Console.WriteLine("Price after discount applied:" + total);
-
-
             if (customer.UserAmount >= total)
             {
                 customer.UserAmount -= total;
@@ -82,6 +79,7 @@ namespace _211229001_Facade
                 Console.WriteLine("There is not enough balance");
             }
         }
+        
         public void LogOut(int UserNo, List<Customer_01> CustomerList)
         {
             bool status = true;
@@ -105,8 +103,6 @@ namespace _211229001_Facade
             if (status)
                 Console.WriteLine("User not found!");
         }
-
-       
         
         public void ShowAccount(int Usercode, List<Customer_01> CustomerList, List<Products_01> basket)
         {
@@ -124,8 +120,5 @@ namespace _211229001_Facade
             if (!user)
                 Console.WriteLine("User not found!");
         }
-
-        
-
     }
 }
