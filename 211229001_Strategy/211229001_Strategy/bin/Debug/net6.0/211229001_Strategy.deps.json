@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "211229001_Strategy/1.0.0": {
+        "runtime": {
+          "211229001_Strategy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "211229001_Strategy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
