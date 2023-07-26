@@ -41,13 +41,12 @@ namespace _211229001_Strategy
 
         public double CalculateDiscount(double total)
         {
-
             total = total - (total * 10 / 100);
             return total;
         }
+        
         public SilverCustomer_01()
         {
-
         }
     
     }
