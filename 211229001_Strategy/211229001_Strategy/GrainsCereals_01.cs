@@ -19,7 +19,6 @@ namespace _211229001_Strategy
 
         public GrainsCereals_01()
         {
-
         }
 
         public Products_01 Create(int code, string ProductName, int Stock, double Price)
