@@ -37,13 +37,14 @@ namespace _211229001_Strategy
             return standard;
 
         }
+        
         public double CalculateDiscount(double total)
         {
             return total;
         }
+        
         public StandardCustomer_01()
         {
-
         }
     }
 }
