@@ -46,10 +46,8 @@ namespace _211229001_Strategy
             return total;
         }
 
-
         public BronzCustomer_01()
         {
-
         }
 
     }
