@@ -17,11 +17,6 @@ namespace _211229001_Strategy
             this.Price = Price;
         }
 
-        public Confections_01()
-        {
-
-        }
-
         public Products_01 Create(int code, string ProductName, int Stock, double Price)
         {
             Products_01 confections = new Products_01();
@@ -33,5 +28,8 @@ namespace _211229001_Strategy
             return confections;
         }
 
+        public Confections_01()
+        {
+        }
     }
 }
