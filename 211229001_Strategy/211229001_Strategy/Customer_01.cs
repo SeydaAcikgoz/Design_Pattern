@@ -21,12 +21,10 @@ namespace _211229001_Strategy
 
         public List<Customer_01> CustomerList = new List<Customer_01>();
 
-
         public bool login = false;
         public Customer_01()
         {
         }
-
 
         public Customer_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
@@ -44,7 +42,6 @@ namespace _211229001_Strategy
 
         Products_01 Product = new Products_01();
 
-
         public void LogIn(int cod, string email, string password, List<Customer_01> CustomerList)
         {
             CustomerList.ForEach(delegate (Customer_01 customer)
@@ -58,6 +55,7 @@ namespace _211229001_Strategy
                 Console.WriteLine("User not found!");
 
         }
+        
         public void LogInControl(string email, string password, Customer_01 customer)
         {
 
@@ -73,9 +71,7 @@ namespace _211229001_Strategy
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
-
 
         public void LogOut(int UserNo, List<Customer_01> CustomerList)
         {
@@ -115,7 +111,6 @@ namespace _211229001_Strategy
             }
 
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_01> ProductsList)
         {
