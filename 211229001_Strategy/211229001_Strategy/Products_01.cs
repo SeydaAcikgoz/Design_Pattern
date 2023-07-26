@@ -30,6 +30,7 @@ namespace _211229001_Strategy
             this.Stock = Stock;
             this.Price = Price;
         }
+        
         public void CreateProductList()
         {
            ContextProduct_01 contextProduct=new ContextProduct_01();
@@ -52,8 +53,6 @@ namespace _211229001_Strategy
             ProductsList.Add(product8);
             Products_01 product9 = contextProduct.CreateProduct(303, "Tunnbröd", 3, 61, 9);
             ProductsList.Add(product9);
-
-
         }
 
         public void LogIn(int cod, string email, string password, List<Customer_01> CustomerList)
@@ -69,6 +68,7 @@ namespace _211229001_Strategy
                 Console.WriteLine("User not found!");
 
         }
+        
         public void LogInControl(string email, string password, Customer_01 customer)
         {
 
@@ -87,10 +87,8 @@ namespace _211229001_Strategy
 
         }
 
-
         public void StockControl(Products_01 products)
         {
-
             if (products.Stock > 0)
             {
                 basket.Add(products);
@@ -100,9 +98,7 @@ namespace _211229001_Strategy
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_01> ProductsList)
         {
