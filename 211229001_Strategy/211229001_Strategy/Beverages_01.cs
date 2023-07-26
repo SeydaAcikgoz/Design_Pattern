@@ -30,7 +30,6 @@ namespace _211229001_Strategy
 
         public Beverages_01()
         {
-
         }
     }
 }
