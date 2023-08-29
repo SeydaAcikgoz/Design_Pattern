@@ -20,6 +20,5 @@ namespace _211229001_AbstractFactory
             confections = productFactory.CreateConfections(ProductsList);
             grainsCereals = productFactory.CreateGrainsCereals(ProductsList);
         }
-
     }
 }
