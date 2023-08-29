@@ -19,7 +19,6 @@ namespace _211229001_AbstractFactory
             gold = customerFactory.CreateGoldCustomer(CustomerList);
             silver = customerFactory.CreateSilverCustomer(CustomerList);
             standard = customerFactory.CreateStandardCustomer(CustomerList);
-
         }
     }
 }
