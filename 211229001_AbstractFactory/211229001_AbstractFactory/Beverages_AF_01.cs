@@ -19,7 +19,6 @@ namespace _211229001_AbstractFactory
 
         public Beverages_AF_01()
         {
-
         }
     }
 }
