@@ -25,7 +25,6 @@ namespace _211229001_AbstractFactory
         
          public BronzCustomer_AF_01()
         {
-
         }
     }
 }
