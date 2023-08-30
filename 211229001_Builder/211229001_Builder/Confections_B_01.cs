@@ -19,7 +19,6 @@ namespace _211229001_Builder
 
         public Confections_B_01()
         {
-
         }
     }
 }
