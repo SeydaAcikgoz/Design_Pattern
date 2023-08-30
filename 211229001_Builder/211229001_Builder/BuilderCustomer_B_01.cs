@@ -71,7 +71,6 @@ namespace _211229001_Builder
 
             }
 
-
             public BuilderCustomer_B_01 AddType(string customerType)
             {
                 this.customerType = customerType;
