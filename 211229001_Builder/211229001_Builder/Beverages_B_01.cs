@@ -19,7 +19,6 @@ namespace _211229001_Builder
 
         public Beverages_B_01()
         {
-
         }
     }
 }
