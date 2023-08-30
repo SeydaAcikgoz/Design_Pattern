@@ -24,7 +24,6 @@ namespace _211229001_Builder
         }
         public BronzCustomer_B_01()
         {
-
         }
     }
 }
