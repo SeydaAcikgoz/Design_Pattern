@@ -25,7 +25,6 @@ namespace _211229001_Builder
 
         public GoldCustomer_B_01()
         {
-
         }
     }
 }
