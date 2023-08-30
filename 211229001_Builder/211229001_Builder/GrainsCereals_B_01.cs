@@ -19,7 +19,6 @@ namespace _211229001_Builder
 
         public GrainsCereals_B_01()
         {
-
         }
     }
 }
