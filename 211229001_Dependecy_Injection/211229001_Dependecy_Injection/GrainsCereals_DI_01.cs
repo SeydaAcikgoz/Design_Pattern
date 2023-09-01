@@ -20,7 +20,6 @@ namespace _211229001_Dependecy_Injection
 
         public GrainsCereals_DI_01()
         {
-
         }
 
         public Products_DI_01 Create(int code, string ProductName, string category, int Stock, double Price)
