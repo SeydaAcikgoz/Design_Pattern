@@ -32,7 +32,6 @@ namespace _211229001_Dependecy_Injection
             this.category = category;
         }
 
-
         public Customer_DI_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -101,9 +100,7 @@ namespace _211229001_Dependecy_Injection
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
-
 
         public void LogOut(int UserNo, List<Customer_DI_01> CustomerList)
         {
