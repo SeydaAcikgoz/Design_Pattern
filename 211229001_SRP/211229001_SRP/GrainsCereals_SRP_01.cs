@@ -8,7 +8,6 @@ namespace _211229001_SRP
 {
     public class GrainsCereals_SRP_01 : Products_SRP_01
     {
-
         public GrainsCereals_SRP_01(int code, string ProductName, string category, int Stock, double Price)
         {
             this.Code = code;
@@ -20,8 +19,6 @@ namespace _211229001_SRP
 
         public GrainsCereals_SRP_01()
         {
-
         }
-
     } 
 }
