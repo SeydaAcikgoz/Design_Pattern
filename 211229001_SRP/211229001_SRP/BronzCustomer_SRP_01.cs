@@ -8,11 +8,8 @@ namespace _211229001_SRP
 {
     public class BronzCustomer_SRP_01:Customer_SRP_01
     {
-        
-
         public BronzCustomer_SRP_01()
         {
-
         }
         public BronzCustomer_SRP_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
