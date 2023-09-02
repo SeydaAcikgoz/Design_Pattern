@@ -19,8 +19,6 @@ namespace _211229001_SRP
 
         public Beverages_SRP_01()
         {
-
         }
-
     }
 }
