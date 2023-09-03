@@ -27,16 +27,12 @@ namespace _211229001_LSP
         {
         }
 
-      
-
         Products_LSP_01 Product = new Products_LSP_01();
 
         public void CreateCustomerList()
         {
             Customer_LSP_01 customer =new BronzCustomer_LSP_01(1,"Seyda","Acikgoz","Konya",1230,15, "Bronz","seyda@gmail.com","123Seyda",false);
            CustomerList.Add(customer);
-
-
         }
 
         public void LogIn(int cod, string email, string password, List<Customer_LSP_01> CustomerList)
@@ -52,9 +48,9 @@ namespace _211229001_LSP
                 Console.WriteLine("User not found!");
 
         }
+        
         public void LogInControl(string email, string password, Customer_LSP_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -67,9 +63,7 @@ namespace _211229001_LSP
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
-
 
         public void LogOut(int UserNo, List<Customer_LSP_01> CustomerList)
         {
@@ -97,7 +91,6 @@ namespace _211229001_LSP
 
         public void StockControl(Products_LSP_01 products)
         {
-
             if (products.Stock > 0)
             {
                 Product.basket.Add(products);
@@ -107,9 +100,7 @@ namespace _211229001_LSP
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_LSP_01> ProductsList)
         {
@@ -120,7 +111,6 @@ namespace _211229001_LSP
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -150,7 +140,6 @@ namespace _211229001_LSP
             });
 
             Console.WriteLine("Listed products have been shipped to the address " + customer.Adress);
-
         }
 
         public void IncreasePoints(Customer_LSP_01 customer)
@@ -158,6 +147,7 @@ namespace _211229001_LSP
             customer.Point += Product.basket.Count() * 10;
             Console.WriteLine("Current point:" + customer.Point);
         }
+        
         public void Payment(Customer_LSP_01 customer, double total)
         {
             Console.WriteLine("Price:" + total);
@@ -176,7 +166,6 @@ namespace _211229001_LSP
             }
 
             Console.WriteLine("Price after discount applied:" + total);
-
 
             if (customer.UserAmount >= total)
             {
@@ -223,7 +212,6 @@ namespace _211229001_LSP
                         Console.WriteLine("Not logged in.Please loggin first.");
                         return;
                     }
-
                 }
             });
             if (!user)
@@ -246,7 +234,6 @@ namespace _211229001_LSP
             });
             if (!product)
                 Console.WriteLine("Product not found!");
-
         }
         public void FindStock(int ProductCode, List<Products_LSP_01> ProductsList)
         {
@@ -293,6 +280,5 @@ namespace _211229001_LSP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
     }
 }
