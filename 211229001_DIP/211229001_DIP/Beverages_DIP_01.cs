@@ -19,9 +19,6 @@ namespace _211229001_DIP
         }
         public Beverages_DIP_01()
         {
-
         }
-
-      
     }
 }
