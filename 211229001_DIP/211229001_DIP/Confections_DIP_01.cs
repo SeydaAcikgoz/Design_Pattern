@@ -20,9 +20,6 @@ namespace _211229001_DIP
 
         public Confections_DIP_01()
         {
-
         }
-
-       
     }
 }
