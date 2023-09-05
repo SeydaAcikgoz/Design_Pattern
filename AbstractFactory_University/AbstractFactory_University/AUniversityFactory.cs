@@ -25,6 +25,5 @@ namespace AbstractFactory_University
             Schedule schedule = new Schedule(10);
             return schedule;
         }
-
     }
 }
