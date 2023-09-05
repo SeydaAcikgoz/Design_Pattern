@@ -21,12 +21,10 @@ namespace _211229001_DIP
 
         public List<Customer_DIP_01> CustomerList = new List<Customer_DIP_01>();
 
-
         public bool login = false;
         public Customer_DIP_01()
         {
         }
-
 
         public Customer_DIP_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
@@ -44,7 +42,6 @@ namespace _211229001_DIP
 
         Products_DIP_01 Product = new Products_DIP_01();
 
-
         public void LogIn(int cod, string email, string password, List<Customer_DIP_01> CustomerList)
         {
             CustomerList.ForEach(delegate (Customer_DIP_01 customer)
@@ -56,11 +53,10 @@ namespace _211229001_DIP
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
+        
         public void LogInControl(string email, string password, Customer_DIP_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -73,9 +69,7 @@ namespace _211229001_DIP
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
-
 
         public void LogOut(int UserNo, List<Customer_DIP_01> CustomerList)
         {
@@ -103,7 +97,6 @@ namespace _211229001_DIP
 
         public void StockControl(Products_DIP_01 products)
         {
-
             if (products.Stock > 0)
             {
                 Product.basket.Add(products);
@@ -113,9 +106,7 @@ namespace _211229001_DIP
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_DIP_01> ProductsList)
         {
@@ -126,7 +117,6 @@ namespace _211229001_DIP
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -156,7 +146,6 @@ namespace _211229001_DIP
             });
 
             Console.WriteLine("Listed products have been shipped to the address " + customer.Adress);
-
         }
 
         public void IncreasePoints(Customer_DIP_01 customer)
@@ -164,6 +153,7 @@ namespace _211229001_DIP
             customer.Point += Product.basket.Count() * 10;
             Console.WriteLine("Current point:" + customer.Point);
         }
+        
         public void Payment(Customer_DIP_01 customer, double total)
         {
             Console.WriteLine("Price:" + total);
@@ -183,9 +173,7 @@ namespace _211229001_DIP
                 BronzCustomer_DIP_01 bronz = new BronzCustomer_DIP_01();
                 total = bronz.CalculatePrice(total);
             }
-
             Console.WriteLine("Price after discount applied:" + total);
-
 
             if (customer.UserAmount >= total)
             {
@@ -241,7 +229,6 @@ namespace _211229001_DIP
             }
         }
 
-
         public void FindPrice(int ProductCode, List<Products_DIP_01> ProductsList)
         {
             bool product = false;
@@ -255,8 +242,8 @@ namespace _211229001_DIP
             });
             if (!product)
                 Console.WriteLine("Product not found!");
-
         }
+        
         public void FindStock(int ProductCode, List<Products_DIP_01> ProductsList)
         {
             bool product = false;
@@ -302,6 +289,5 @@ namespace _211229001_DIP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
     }
 }
