@@ -13,10 +13,7 @@ namespace _211229001_DIP
             Customer_DIP_01 customer = new Customer_DIP_01();
             Products_DIP_01 product = new Products_DIP_01();
 
-
             customer.CustomerList.Add(new BronzCustomer_DIP_01() { UserNo = 1, UserName = "Seyda", UserSurname = "Acikgoz", Adress = "Konya", UserAmount = 1230, Point = 15, customerType = "Bronz", Email = "seyda@gmail.com", Password = "123Seyda", LoginStatus = false });
-
-
 
             product.CreateProductList();
             product.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
@@ -80,8 +77,6 @@ namespace _211229001_DIP
             customer.ShowProductsCategory(1, product.ProductsList);
             Console.WriteLine();
             customer.LogOut(1, customer.CustomerList);
-
         }
     }
-
 }
