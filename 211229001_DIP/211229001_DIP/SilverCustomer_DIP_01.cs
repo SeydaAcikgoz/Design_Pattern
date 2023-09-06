@@ -8,10 +8,6 @@ namespace _211229001_DIP
 {
     public class SilverCustomer_DIP_01:Customer_DIP_01
     {
-        public SilverCustomer_DIP_01()
-        {
-
-        }
         public SilverCustomer_DIP_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -26,6 +22,10 @@ namespace _211229001_DIP
             this.LoginStatus = loginStatus;
         }
 
+        public SilverCustomer_DIP_01()
+        {
+        }
+        
         public double CalculatePrice(double total)
         {
             return total - (total * 10 / 100);
