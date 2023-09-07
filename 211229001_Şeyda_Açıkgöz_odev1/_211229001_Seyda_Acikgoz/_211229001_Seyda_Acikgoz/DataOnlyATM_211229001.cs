@@ -11,9 +11,6 @@ namespace _211229001_Seyda_Acikgoz
         public bool login = false;
         public int amount = 1800;
         public bool passwordCorrect = true;
-
         public readonly int DAILY_AMOUNT = 500;
-       
     }
-
 }
