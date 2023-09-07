@@ -18,20 +18,16 @@ namespace _211229001_Seyda_Acikgoz
        
         Banknote_211229001 banknote = new Banknote_211229001();
 
-        
         public void logIn()
         {
             CalculatePassword();
-
             if (passwordCorrect)
             {
                 login = true;
                 Console.WriteLine("logged in");
             }
-
             else
                 Console.WriteLine("Wrong password");
-
         }
 
         public void CalculatePassword()
@@ -77,9 +73,7 @@ namespace _211229001_Seyda_Acikgoz
                 {
                     difference = Math.Abs(difference);
                     Withdraw(difference);
-                    AfterAct(targetMoney);
-
-                   
+                    AfterAct(targetMoney); 
                 }
                 amount = targetMoney;
             }
@@ -116,7 +110,6 @@ namespace _211229001_Seyda_Acikgoz
                 }
                 Console.WriteLine("Money deposited successfully");
                 Console.WriteLine("Amount:" + amount);
-
         }
 
         public void Withdraw(int balance)
@@ -215,9 +208,6 @@ namespace _211229001_Seyda_Acikgoz
                 balance -= (int)BanknoteType.TEN;
                 banknote.Ten++;
             }
-
         }
-
     }
-
 }
