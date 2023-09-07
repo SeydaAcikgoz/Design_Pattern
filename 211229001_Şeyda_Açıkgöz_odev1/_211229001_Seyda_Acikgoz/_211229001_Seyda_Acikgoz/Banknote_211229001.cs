@@ -15,15 +15,15 @@ namespace _211229001_Seyda_Acikgoz
     {
         private BanknoteType BanknoteType;
         public int Ten = 10, Twenty = 10, Fifty = 10, Hundred = 10;
+        
         public void SetBanknote(BanknoteType banknoteType)
         {
             this.BanknoteType = banknoteType;
         }
+        
         public BanknoteType GetBanknoteType()
         {
             return this.BanknoteType;
-        }
-
-        
+        } 
     }
 }
