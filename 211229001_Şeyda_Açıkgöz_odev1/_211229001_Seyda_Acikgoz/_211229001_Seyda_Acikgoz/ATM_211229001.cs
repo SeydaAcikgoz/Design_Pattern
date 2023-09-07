@@ -11,7 +11,6 @@ namespace _211229001_Seyda_Acikgoz
         public void Act(int targetMoney);
         public void Withdraw(int balance);
         public void Deposit(int balance);
-
         public void AfterAct(int balance);
     }
 }
