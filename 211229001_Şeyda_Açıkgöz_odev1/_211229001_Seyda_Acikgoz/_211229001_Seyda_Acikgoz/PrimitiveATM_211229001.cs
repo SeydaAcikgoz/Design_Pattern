@@ -11,7 +11,6 @@ namespace _211229001_Seyda_Acikgoz
         public bool login = true;
         public int amount = 1800;
         public bool passwordCorrect = true;
-
         public readonly int DAILY_AMOUNT = 500;
 
         public void logIn()
@@ -23,7 +22,6 @@ namespace _211229001_Seyda_Acikgoz
                 login = true;
                 Console.WriteLine("logged in");
             }
-
             else
                 Console.WriteLine("Wrong password");
 
@@ -41,7 +39,6 @@ namespace _211229001_Seyda_Acikgoz
                 login = false;
                 Console.WriteLine("logged out");
             }
-
             else
                 Console.WriteLine("Already logged out");
         }
@@ -80,7 +77,6 @@ namespace _211229001_Seyda_Acikgoz
             }
         }
 
-
         public void Deposit(int balance)
         {
             if (login)
@@ -97,7 +93,6 @@ namespace _211229001_Seyda_Acikgoz
 
         public void Act(int targetMoney)
         {
-
             if (targetMoney > 0)
             {
                 int difference = amount - targetMoney;
@@ -115,7 +110,6 @@ namespace _211229001_Seyda_Acikgoz
             }
             amount = targetMoney;
         }
-
     }
 }
 
