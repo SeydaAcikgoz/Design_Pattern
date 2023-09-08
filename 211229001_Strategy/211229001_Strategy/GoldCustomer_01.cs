@@ -36,7 +36,6 @@ namespace _211229001_Strategy
             gold.Password = password;
             gold.LoginStatus = loginStatus;
             return gold;
-
         }
 
         public double CalculateDiscount(double total)
