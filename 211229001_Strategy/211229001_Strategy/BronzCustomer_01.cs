@@ -36,12 +36,10 @@ namespace _211229001_Strategy
             bronz.Password = password;
             bronz.LoginStatus = loginStatus;
             return bronz;
-
         }
 
         public double CalculateDiscount( double total)
         {
-
             total = total - (total * 5 / 100);
             return total;
         }
@@ -49,6 +47,5 @@ namespace _211229001_Strategy
         public BronzCustomer_01()
         {
         }
-
     }
 }
