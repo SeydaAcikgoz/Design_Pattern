@@ -13,7 +13,5 @@ namespace _211229001_Strategy
         public void ShowBasket();
         public void FindPrice(int ProductCode, List<Products_01> ProductsList);
         public void FindStock(int ProductCode, List<Products_01> ProductsList);
-        //public void ShowProductsCategory(string category, List<Products_01> ProductsList);
-
     }
 }
