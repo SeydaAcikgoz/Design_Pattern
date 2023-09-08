@@ -66,12 +66,10 @@ namespace _211229001_Strategy
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
         
         public void LogInControl(string email, string password, Customer_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -84,7 +82,6 @@ namespace _211229001_Strategy
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
 
         public void StockControl(Products_01 products)
@@ -109,7 +106,6 @@ namespace _211229001_Strategy
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -176,6 +172,5 @@ namespace _211229001_Strategy
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
     }
 }
