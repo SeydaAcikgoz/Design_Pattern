@@ -18,8 +18,6 @@ namespace _211229001_SRP
             Customer_01 customer_ = contextCustomer.CreateCustomer(1, "Seyda", "Acikgoz", "Konya", 1230, 15, 1, "seyda@gmail.com", "123Seyda", false);
             customer.CustomerList.Add(customer_);
 
-
-
             product.CreateProductList();
             product.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
@@ -44,13 +42,9 @@ namespace _211229001_SRP
             Console.WriteLine();
             product.ShowProductsCategory("Beverages", product.ProductsList);
 
-
-
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
-
-
 
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
@@ -82,8 +76,6 @@ namespace _211229001_SRP
             customer.ShowProductsCategory("Beverages", product.ProductsList);
             Console.WriteLine();
             customer.LogOut(1, customer.CustomerList);
-
         }
     }
-
 }
