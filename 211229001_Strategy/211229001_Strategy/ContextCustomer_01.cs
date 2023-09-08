@@ -33,7 +33,6 @@ namespace _211229001_Strategy
                 customer = standard.Create(userno, userName, userSurname, adress, UserAmount, point, email, password, loginStatus);
             }
             return customer;
-
         }
     }
 }
