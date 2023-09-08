@@ -32,7 +32,6 @@ namespace _211229001_Strategy
                 total = standard.CalculateDiscount(total);
             }
             return total;
-
         }
     }
 }
