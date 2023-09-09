@@ -22,6 +22,7 @@ namespace _211229001_Builder
             this.Password = password;
             this.LoginStatus = loginStatus;
         }
+        
         public BronzCustomer_B_01()
         {
         }
