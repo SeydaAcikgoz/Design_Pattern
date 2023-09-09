@@ -10,6 +10,7 @@ namespace _211229001_Anti_OCP
     {
         Gold = 15, Silver = 10, Bronz = 5, Standard = 0
     }
+    
     public class Customer_Anti_OCP_01
     {
         public int UserNo;
@@ -30,7 +31,6 @@ namespace _211229001_Anti_OCP
         {
         }
 
-
         public Customer_Anti_OCP_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, CustomerType customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -44,9 +44,9 @@ namespace _211229001_Anti_OCP
             this.Password = password;
             this.LoginStatus = loginStatus;
         }
+        
         Products_Anti_OCP_01 Product = new Products_Anti_OCP_01();
-
-
+        
         public void LogIn(int cod, string email, string password)
         {
             CustomerList.ForEach(delegate (Customer_Anti_OCP_01 customer)
@@ -69,7 +69,6 @@ namespace _211229001_Anti_OCP
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
 
         public void LogOut(int UserNo)
@@ -113,7 +112,6 @@ namespace _211229001_Anti_OCP
                     {
                         Console.WriteLine("Product sold out");
                     }
-
                 }
             });
             if (!product)
@@ -169,7 +167,6 @@ namespace _211229001_Anti_OCP
                             Console.WriteLine("Basket empty.");
                             return;
                         }
-
                         Console.WriteLine("Price:" + total);
                         total = total - (total * (int)(customer.customerType) / 100);
                         Console.WriteLine("Price after discount applied:" + total);
@@ -194,7 +191,6 @@ namespace _211229001_Anti_OCP
                         Console.WriteLine("Not logged in.Please loggin first.");
                         return;
                     }
-
                 }
             });
             if (!user)
@@ -202,7 +198,6 @@ namespace _211229001_Anti_OCP
                 Console.WriteLine("User not found!");
             }
         }
-
 
         public void FindPrice(int ProductCode, List<Products_Anti_OCP_01> ProductsList)
         {
@@ -264,6 +259,5 @@ namespace _211229001_Anti_OCP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
     }
 }
