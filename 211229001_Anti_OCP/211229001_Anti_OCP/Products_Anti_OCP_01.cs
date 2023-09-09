@@ -10,6 +10,7 @@ namespace _211229001_Anti_OCP
     {
         Beverages = 1, Confections = 2, GrainsCereals = 3
     }
+    
     public class Products_Anti_OCP_01
     {
         public int Code;
@@ -21,6 +22,7 @@ namespace _211229001_Anti_OCP
 
         public List<Products_Anti_OCP_01> ProductsList = new List<Products_Anti_OCP_01>();
         public List<Products_Anti_OCP_01> basket = new List<Products_Anti_OCP_01>();
+        
         public Products_Anti_OCP_01()
         {
         }
@@ -62,7 +64,6 @@ namespace _211229001_Anti_OCP
             Console.WriteLine(this.GetType().ToString() + " logged out");
         }
 
-
         public void Buy(int UserCode, List<Customer_Anti_OCP_01> CustomerList)
         {
             Console.WriteLine(this.GetType().ToString() + " bought ");
@@ -90,12 +91,10 @@ namespace _211229001_Anti_OCP
                     {
                         Console.WriteLine("Product sold out");
                     }
-
                 }
             });
             if (!product)
                 Console.WriteLine("Product not found!");
-
         }
 
         public void ShowBasket()
@@ -115,7 +114,6 @@ namespace _211229001_Anti_OCP
 
         public void FindPrice(int ProductCode)
         {
-
             bool product = false;
             ProductsList.ForEach(delegate (Products_Anti_OCP_01 products)
             {
@@ -163,7 +161,5 @@ namespace _211229001_Anti_OCP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
-
     }
 }
