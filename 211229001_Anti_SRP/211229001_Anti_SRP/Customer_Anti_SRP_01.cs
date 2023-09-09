@@ -11,6 +11,7 @@ namespace _211229001_Anti_SRP
     {
         Gold = 15, Silver = 10, Bronz = 5, Standard = 0
     }
+    
     public class Customer_Anti_SRP_01
     {
         public int UserNo;
@@ -24,10 +25,10 @@ namespace _211229001_Anti_SRP
         public string Password;
         public bool LoginStatus;
 
-
         public List<Customer_Anti_SRP_01> CustomerList = new List<Customer_Anti_SRP_01>();
 
         public bool login = false;
+        
         public Customer_Anti_SRP_01()
         {
         }
@@ -47,7 +48,6 @@ namespace _211229001_Anti_SRP
             this.LoginStatus = loginStatus;
         }
         Products_Anti_SRP_01 Product = new Products_Anti_SRP_01();
-
 
         public void LogIn(int cod, string email, string password)
         {
@@ -71,7 +71,6 @@ namespace _211229001_Anti_SRP
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
 
         public void LogOut(int UserNo)
@@ -151,7 +150,6 @@ namespace _211229001_Anti_SRP
         {
             bool user = false;
             double total = 0;
-
             CustomerList.ForEach(delegate (Customer_Anti_SRP_01 customer)
             {
                 if (customer.UserNo == UserCode)
@@ -171,7 +169,6 @@ namespace _211229001_Anti_SRP
                             Console.WriteLine("Basket empty.");
                             return;
                         }
-
                         Console.WriteLine("Price:" + total);
                         total = total - (total * (int)(customer.customerType) / 100);
                         Console.WriteLine("Price after discount applied:" + total);
@@ -205,7 +202,6 @@ namespace _211229001_Anti_SRP
             }
         }
 
-
         public void FindPrice(int ProductCode, List<Products_Anti_SRP_01> ProductsList)
         {
             bool product = false;
@@ -221,6 +217,7 @@ namespace _211229001_Anti_SRP
                 Console.WriteLine("Product not found!");
 
         }
+        
         public void FindStock(int ProductCode, List<Products_Anti_SRP_01> ProductsList)
         {
             bool product = false;
@@ -266,7 +263,5 @@ namespace _211229001_Anti_SRP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
     }
-
 }
