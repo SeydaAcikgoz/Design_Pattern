@@ -21,6 +21,7 @@ namespace _211229001_LSP
             this.Password = password;
             this.LoginStatus = loginStatus;
         }
+        
          public GoldCustomer_LSP_01()
         {
         }
