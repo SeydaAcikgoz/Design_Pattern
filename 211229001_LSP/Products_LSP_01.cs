@@ -23,10 +23,8 @@ namespace _211229001_LSP
         {
         }
 
-       
         public void CreateProductList()
         {
-
             Products_LSP_01 product1 = new Beverages_LSP_01(101, "Chai", 1, "Beverages", 39, 18);
             ProductsList.Add(product1);
             Products_LSP_01 product2 = new Beverages_LSP_01(102, "Chang", 1, "Beverages", 17, 19);
@@ -45,8 +43,6 @@ namespace _211229001_LSP
             ProductsList.Add(product8);
             Products_LSP_01 product9 = new GrainsCereals_LSP_01(303, "Tunnbröd", 3, "GrainsCereals", 61, 9);
             ProductsList.Add(product9);
-
-
         }
 
         public void LogIn(int cod, string email, string password, List<Customer_LSP_01> CustomerList)
@@ -60,11 +56,10 @@ namespace _211229001_LSP
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
+        
         public void LogInControl(string email, string password, Customer_LSP_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -77,14 +72,10 @@ namespace _211229001_LSP
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
-
-        
 
         public void StockControl(Products_LSP_01 products)
         {
-
             if (products.Stock > 0)
             {
                 basket.Add(products);
@@ -94,9 +85,7 @@ namespace _211229001_LSP
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_LSP_01> ProductsList)
         {
@@ -107,7 +96,6 @@ namespace _211229001_LSP
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -131,7 +119,6 @@ namespace _211229001_LSP
 
         public void FindPrice(int ProductCode, List<Products_LSP_01> ProductsList)
         {
-
             bool product = false;
             ProductsList.ForEach(delegate (Products_LSP_01 products)
             {
@@ -144,7 +131,6 @@ namespace _211229001_LSP
             if (!product)
                 Console.WriteLine("Product not found!");
         }
-
 
         public void FindStock(int ProductCode, List<Products_LSP_01> ProductsList)
         {
@@ -161,8 +147,6 @@ namespace _211229001_LSP
                 Console.WriteLine("Product not found!");
         }
 
-        
-
         public void ShowProductsCategory(int category, List<Products_LSP_01> ProductsList)
         {
             bool Category = false;
@@ -176,7 +160,5 @@ namespace _211229001_LSP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
-
     }
 }
