@@ -8,7 +8,6 @@ namespace _211229001_LSP
 {
     public class GrainsCereals_LSP_01 : Products_LSP_01
     {
-
         public GrainsCereals_LSP_01(int code, string ProductName, int CategoryNo, string category, int Stock, double Price)
         {
             this.Code = code;
@@ -21,7 +20,6 @@ namespace _211229001_LSP
 
         public GrainsCereals_LSP_01()
         {
-
         }
     }
 }
