@@ -13,11 +13,9 @@ namespace _211229001_LSP
             Customer_LSP_01 customer = new Customer_LSP_01();
             Products_LSP_01 product = new Products_LSP_01();
 
-
             customer.CreateCustomerList();
-
-
             product.CreateProductList();
+            
             product.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
             product.LogIn(1, "seda@gmail.com", "123Seyda", customer.CustomerList);
@@ -41,12 +39,9 @@ namespace _211229001_LSP
             Console.WriteLine();
             product.ShowProductsCategory(1, product.ProductsList);
 
-            
-
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
-            
             
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
@@ -78,8 +73,6 @@ namespace _211229001_LSP
             customer.ShowProductsCategory(1, product.ProductsList);
             Console.WriteLine();
             customer.LogOut(1, customer.CustomerList);
-
         }
     }
-
 }
