@@ -8,10 +8,6 @@ namespace _211229001_LSP
 {
     public class SilverCustomer_LSP_01 : Customer_LSP_01
     {
-        public SilverCustomer_LSP_01()
-        {
-
-        }
         public SilverCustomer_LSP_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -25,5 +21,7 @@ namespace _211229001_LSP
             this.Password = password;
             this.LoginStatus = loginStatus;
         }
+
+        public SilverCustomer_LSP_01(){}
     }
 }
