@@ -8,7 +8,6 @@ namespace _211229001_OCP
 {
     public class GrainsCereals_OCP_01 : Products_OCP_01
     {
-
         public GrainsCereals_OCP_01(int code, string ProductName, int CategoryNo, string category, int Stock, double Price)
         {
             this.Code = code;
@@ -21,7 +20,6 @@ namespace _211229001_OCP
 
         public GrainsCereals_OCP_01()
         {
-
         }
     }
 }
