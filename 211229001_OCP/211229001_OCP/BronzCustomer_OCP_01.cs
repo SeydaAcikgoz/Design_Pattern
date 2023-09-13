@@ -8,13 +8,6 @@ namespace _211229001_OCP
 {
     public class BronzCustomer_OCP_01:Customer_OCP_01
     {
-        
-
-
-        public BronzCustomer_OCP_01()
-        {
-
-        }
         public BronzCustomer_OCP_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -27,6 +20,10 @@ namespace _211229001_OCP
             this.Email = email;
             this.Password = password;
             this.LoginStatus = loginStatus;
+        }
+        
+        public BronzCustomer_OCP_01()
+        {
         }
     }
 }
