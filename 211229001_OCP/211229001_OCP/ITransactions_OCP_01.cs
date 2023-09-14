@@ -18,6 +18,5 @@ namespace _211229001_OCP
         public void FindStock(int ProductCode, List<Products_OCP_01> ProductsList);
         public void ShowAccount(int Usercode, List<Customer_OCP_01> CustomerList);
         public void ShowProductsCategory(int category, List<Products_OCP_01> ProductsList);
-
     }
 }
