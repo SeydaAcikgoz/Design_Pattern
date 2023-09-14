@@ -8,11 +8,6 @@ namespace _211229001_OCP
 {
     public class SilverCustomer_OCP_01 : Customer_OCP_01
     {
-
-        public SilverCustomer_OCP_01()
-        {
-
-        }
         public SilverCustomer_OCP_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -25,6 +20,10 @@ namespace _211229001_OCP
             this.Email = email;
             this.Password = password;
             this.LoginStatus = loginStatus;
+        }
+
+        public SilverCustomer_OCP_01()
+        {
         }
     }
 }
