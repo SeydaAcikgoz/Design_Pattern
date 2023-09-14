@@ -12,11 +12,8 @@ namespace _211229001_OCP
         {
             Customer_OCP_01 customer = new Customer_OCP_01();
             Products_OCP_01 product = new Products_OCP_01();
-
             
             customer.CustomerList.Add(new BronzCustomer_OCP_01() { UserNo = 1, UserName = "Seyda", UserSurname = "Acikgoz", Adress = "Konya", UserAmount = 1230, Point = 15, customerType = "Bronz", Email = "seyda@gmail.com", Password = "123Seyda", LoginStatus = false });
-
-
 
             product.CreateProductList();
             product.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
@@ -41,13 +38,11 @@ namespace _211229001_OCP
             product.FindStock(11, product.ProductsList);
             Console.WriteLine();
             product.ShowProductsCategory(1, product.ProductsList);
-
             
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
             
-
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
             customer.LogIn(1, "seda@gmail.com", "123Seyda", customer.CustomerList);
@@ -78,8 +73,6 @@ namespace _211229001_OCP
             customer.ShowProductsCategory(1, product.ProductsList);
             Console.WriteLine();
             customer.LogOut(1, customer.CustomerList);
-
         }
     }
-
 }
