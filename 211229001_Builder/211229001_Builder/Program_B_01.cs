@@ -39,13 +39,9 @@ namespace _211229001_FM_01
             Console.WriteLine();
             product.ShowProductsCategory("Beverages", product.ProductsList);
 
-
-
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
-
-
 
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
@@ -77,8 +73,6 @@ namespace _211229001_FM_01
             customer.ShowProductsCategory("Beverages", product.ProductsList);
             Console.WriteLine();
             customer.LogOut(1, customer.CustomerList);
-
         }
     }
-
 }
