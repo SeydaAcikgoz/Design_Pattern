@@ -22,6 +22,7 @@ namespace _211229001_Builder
             Products_B_01()
         {
         }
+        
         public Products_B_01(BuilderProduct builderProduct)
         {
             this.Code = builderProduct.Code;
@@ -30,7 +31,6 @@ namespace _211229001_Builder
             this.Stock = builderProduct.Stock;
             this.Price = builderProduct.Price;
         }
-
 
         public void CreateProductList()
         {
@@ -45,14 +45,13 @@ namespace _211229001_Builder
             builder.AddPrice(19);
             Products_B_01 product2 = builder.Build();
             ProductsList.Add(product2);
-
             
             builder = new Products_B_01.BuilderProduct(103, "Guarana Fantastica", "Beverages");
             builder.AddStock(20);
             builder.AddPrice(4.5);
             Products_B_01 product3 = builder.Build();
             ProductsList.Add(product3);
-
+            
             builder = new Products_B_01.BuilderProduct(201, "Konbu", "Confections");
             builder.AddStock(24);
             builder.AddPrice(6);
@@ -88,7 +87,6 @@ namespace _211229001_Builder
             builder.AddPrice(9);
             Products_B_01 product9 = builder.Build();
             ProductsList.Add(product9);
-
         }
 
         public void LogIn(int cod, string email, string password, List<Customer_B_01> CustomerList)
@@ -102,11 +100,10 @@ namespace _211229001_Builder
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
+        
         public void LogInControl(string email, string password, Customer_B_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -119,14 +116,12 @@ namespace _211229001_Builder
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
 
         public void LogOut(int UserNo, List<Customer_B_01> CustomerList)
         {
             Console.WriteLine(this.GetType().ToString() + " logged out");
         }
-
 
         public void Buy(int UserCode, List<Products_B_01> ProductsList, List<Customer_B_01> CustomerList)
         {
@@ -140,7 +135,6 @@ namespace _211229001_Builder
 
         public void StockControl(Products_B_01 products)
         {
-
             if (products.Stock > 0)
             {
                 basket.Add(products);
@@ -150,9 +144,7 @@ namespace _211229001_Builder
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_B_01> ProductsList)
         {
@@ -163,7 +155,6 @@ namespace _211229001_Builder
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -187,7 +178,6 @@ namespace _211229001_Builder
 
         public void FindPrice(int ProductCode, List<Products_B_01> ProductsList)
         {
-
             bool product = false;
             ProductsList.ForEach(delegate (Products_B_01 products)
             {
@@ -200,7 +190,6 @@ namespace _211229001_Builder
             if (!product)
                 Console.WriteLine("Product not found!");
         }
-
 
         public void FindStock(int ProductCode, List<Products_B_01> ProductsList)
         {
