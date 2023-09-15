@@ -8,7 +8,6 @@ namespace _211229001_Builder
 {
     public class GoldCustomer_B_01 : Customer_B_01
     {
-        
         public GoldCustomer_B_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
