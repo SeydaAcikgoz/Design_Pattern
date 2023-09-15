@@ -8,7 +8,7 @@ namespace _211229001_Builder
 {
     public class StandardCustomer_B_01:Customer_B_01
     {
-        
+    
         public StandardCustomer_B_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -25,7 +25,6 @@ namespace _211229001_Builder
 
         public StandardCustomer_B_01()
         {
-
         }
     }
 }
