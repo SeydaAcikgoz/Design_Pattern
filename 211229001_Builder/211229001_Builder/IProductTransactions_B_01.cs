@@ -14,6 +14,5 @@ namespace _211229001_Builder
         public void FindPrice(int ProductCode, List<Products_B_01> ProductsList);
         public void FindStock(int ProductCode, List<Products_B_01> ProductsList);
         public void ShowProductsCategory(string category, List<Products_B_01> ProductsList);
-
     }
 }
