@@ -21,6 +21,7 @@ namespace _211229001_ISP
 
         public List<Products_ISP_01> ProductsList = new List<Products_ISP_01>();
         public List<Products_ISP_01> basket = new List<Products_ISP_01>();
+        
         public Products_ISP_01()
         {
         }
@@ -33,10 +34,9 @@ namespace _211229001_ISP
             this.Stock = Stock;
             this.Price = Price;
         }
-
+        
         public void CreateProductList()
         {
-
             Products_ISP_01 product1 = new Products_ISP_01(101, "Chai", CategoryType.Beverages, 39, 18);
             ProductsList.Add(product1);
             Products_ISP_01 product2 = new Products_ISP_01(102, "Chang", CategoryType.Beverages, 17, 19);
@@ -55,9 +55,8 @@ namespace _211229001_ISP
             ProductsList.Add(product8);
             Products_ISP_01 product9 = new Products_ISP_01(303, "Tunnbröd", CategoryType.GrainsCereals, 61, 9);
             ProductsList.Add(product9);
-
-
         }
+        
         public void LogIn(int cod, string email, string password, List<Customer_ISP_01> CustomerList)
         {
             CustomerList.ForEach(delegate (Customer_ISP_01 customer)
@@ -82,8 +81,6 @@ namespace _211229001_ISP
                 Console.WriteLine("User not found!");
         }
 
-
-
         public void AddBasket(int USerCode, int ProductCode, List<Products_ISP_01> ProductsList)
         {
             bool product = false;
@@ -101,12 +98,10 @@ namespace _211229001_ISP
                     {
                         Console.WriteLine("Product sold out");
                     }
-
                 }
             });
             if (!product)
                 Console.WriteLine("Product not found!");
-
         }
 
         public void ShowBasket()
@@ -126,7 +121,6 @@ namespace _211229001_ISP
 
         public void FindPrice(int ProductCode, List<Products_ISP_01> ProductsList)
         {
-
             bool product = false;
             ProductsList.ForEach(delegate (Products_ISP_01 products)
             {
@@ -139,7 +133,6 @@ namespace _211229001_ISP
             if (!product)
                 Console.WriteLine("Product not found!");
         }
-
 
         public void FindStock(int ProductCode, List<Products_ISP_01> ProductsList)
         {
@@ -156,7 +149,6 @@ namespace _211229001_ISP
                 Console.WriteLine("Product not found!");
         }
 
-
         public void ShowProductsCategory(CategoryType category, List<Products_ISP_01> ProductsList)
         {
             bool Category = false;
@@ -170,10 +162,5 @@ namespace _211229001_ISP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
-
     }
-
 }
-
-
