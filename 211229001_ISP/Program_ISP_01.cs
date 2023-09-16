@@ -9,8 +9,6 @@ namespace _211229001_Anti_ISP
     {
         static void Main(string[] args)
         {
-
-
             Customer_ISP_01 customer = new Customer_ISP_01();
             Products_ISP_01 product = new Products_ISP_01();
 
@@ -74,9 +72,6 @@ namespace _211229001_Anti_ISP
             customer.ShowProductsCategory(CategoryType.Beverages, product.ProductsList);
             Console.WriteLine();
             customer.LogOut(1, customer.CustomerList);
-
         }
     }
-
-
 }
