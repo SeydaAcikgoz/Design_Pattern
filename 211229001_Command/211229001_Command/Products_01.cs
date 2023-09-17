@@ -44,15 +44,12 @@ namespace _211229001_Command
             transactions.Execute(301, "Ikura", "GrainsCereals", 31, 31, ProductsList);
             transactions.Execute(302, "Tofu", "GrainsCereals", 35, 25.25, ProductsList);
             transactions.Execute(303, "Tunnbröd", "GrainsCereals", 61, 9, ProductsList);
-          
-
         }
+    
         public void Create(int code, string ProductName, string category, int Stock, double Price, List<Products_01> ProductsList)
         {
-
             Products_01 product = new Products_01( code,  ProductName,  category,  Stock,  Price);
             ProductsList.Add(product);
-           
         }
 
         public void Remove(List<Products_01> ProductsList)
@@ -62,23 +59,19 @@ namespace _211229001_Command
 
         public void Buy(int product, List<Products_01> ProductsList)
         {
-
             ProductsList.ForEach(delegate (Products_01 products)
             {
                 if (products.Code==product)
                 {
                     if (products.Stock >= 1)
                     {
-
                         products.Stock--;
                         basket.Add(products);
                     }
                     else
                         throw new NotEnoughAmountException_01();
                 }
-            });
-            
-            
+            }); 
         }
 
         public void Return(int product, List<Products_01> ProductsList)
@@ -105,11 +98,10 @@ namespace _211229001_Command
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
+        
         public void LogInControl(string email, string password, Customer_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -122,13 +114,10 @@ namespace _211229001_Command
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
-
 
         public void StockControl(Products_01 products)
         {
-
             if (products.Stock > 0)
             {
                 basket.Add(products);
@@ -138,9 +127,7 @@ namespace _211229001_Command
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_01> ProductsList)
         {
@@ -151,7 +138,6 @@ namespace _211229001_Command
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -175,7 +161,6 @@ namespace _211229001_Command
 
         public void FindPrice(int ProductCode, List<Products_01> ProductsList)
         {
-
             bool product = false;
             ProductsList.ForEach(delegate (Products_01 products)
             {
@@ -223,7 +208,5 @@ namespace _211229001_Command
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
-
     }
 }
