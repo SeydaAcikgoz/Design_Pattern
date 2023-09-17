@@ -12,7 +12,6 @@ namespace _211229001_Command
 
         public NotEnoughAmountException_01() : base(description)
         {
-
         }
     }
 }
