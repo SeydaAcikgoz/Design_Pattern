@@ -22,16 +22,12 @@ namespace _211229001_Command
             Console.WriteLine();
             customer.LogIn(1, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
-
-
+    
             ITransactions_01 transaction = new Buy_01();
             transaction.Execute(101, products.ProductsList);
             transaction.Execute(201, products.ProductsList);
             transaction.Execute(301, products.ProductsList);
-
-
-
-
+            
             ITransactions_01 transaction2 = new Return_01();
             transaction2.Execute(101, products.ProductsList);
             transaction2.Redo(101,products.ProductsList);
@@ -47,7 +43,6 @@ namespace _211229001_Command
             Console.WriteLine();
             customer.Buy(1, products.ProductsList, customer.CustomerList);
             Console.WriteLine();
-
             customer.FindPrice(101, products.ProductsList);
             Console.WriteLine();
             customer.FindStock(101, products.ProductsList);
@@ -61,7 +56,6 @@ namespace _211229001_Command
             customer.ShowProductsCategory("Beverages", products.ProductsList);
             Console.WriteLine();
             customer.LogOut(1, customer.CustomerList);
-
         }
     }
 }
