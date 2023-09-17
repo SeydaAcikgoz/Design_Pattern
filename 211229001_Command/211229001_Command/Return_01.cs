@@ -8,8 +8,6 @@ namespace _211229001_Command
 {
     public class Return_01:AbstractTransactions_01
     {
-        
-
         public override void Execute(int Code, List<Products_01> basket)
         {
             this.Code = Code;
@@ -26,8 +24,6 @@ namespace _211229001_Command
             {
                 Console.WriteLine( e.Message);
             }
-            
-
         }
     }
 }
