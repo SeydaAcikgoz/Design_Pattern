@@ -19,6 +19,7 @@ namespace _211229001_Dependecy_Injection
         public string Password;
         public bool LoginStatus;
 
+        Products_DI_01 Product = new Products_DI_01();
         public List<Customer_DI_01> CustomerList = new List<Customer_DI_01>();
         ICustomerCategory_DI_01 category;
 
@@ -45,9 +46,7 @@ namespace _211229001_Dependecy_Injection
             this.Password = password;
             this.LoginStatus = loginStatus;
         }
-
-        Products_DI_01 Product = new Products_DI_01();
-
+        
         public BronzCustomer_DI_01 CreateBronzCustomer(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             BronzCustomer_DI_01 customer = new BronzCustomer_DI_01(userno, userName, userSurname, adress, UserAmount, point, customerType, email, password, loginStatus);
@@ -85,9 +84,9 @@ namespace _211229001_Dependecy_Injection
                 Console.WriteLine("User not found!");
 
         }
+        
         public void LogInControl(string email, string password, Customer_DI_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -128,7 +127,6 @@ namespace _211229001_Dependecy_Injection
 
         public void StockControl(Products_DI_01 products)
         {
-
             if (products.Stock > 0)
             {
                 Product.basket.Add(products);
@@ -138,9 +136,7 @@ namespace _211229001_Dependecy_Injection
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_DI_01> ProductsList)
         {
@@ -151,7 +147,6 @@ namespace _211229001_Dependecy_Injection
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -181,7 +176,6 @@ namespace _211229001_Dependecy_Injection
             });
 
             Console.WriteLine("Listed products have been shipped to the address " + customer.Adress);
-
         }
 
         public void IncreasePoints(Customer_DI_01 customer)
@@ -189,10 +183,10 @@ namespace _211229001_Dependecy_Injection
             customer.Point += Product.basket.Count() * 10;
             Console.WriteLine("Current point:" + customer.Point);
         }
+        
         public void Payment(Customer_DI_01 customer, double total)
         {
             Console.WriteLine("Price:" + total);
-
             if (customer.customerType.Equals("Gold"))
             {
                 total = total - (total * 15 / 100);
@@ -205,9 +199,7 @@ namespace _211229001_Dependecy_Injection
             {
                 total = total - (total * 5 / 100);
             }
-
             Console.WriteLine("Price after discount applied:" + total);
-
 
             if (customer.UserAmount >= total)
             {
@@ -247,14 +239,12 @@ namespace _211229001_Dependecy_Injection
                         }
                         IncreasePoints(customer);
                         Payment(customer, total);
-
                     }
                     else
                     {
                         Console.WriteLine("Not logged in.Please loggin first.");
                         return;
                     }
-
                 }
             });
             if (!user)
@@ -324,7 +314,5 @@ namespace _211229001_Dependecy_Injection
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
-        
     }
 }
