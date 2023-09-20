@@ -9,6 +9,5 @@ namespace _211229001_FactoryMethod
     public interface IStandardCustomerFactory_FM_01
     {
         public StandardCustomer_FM_01 Create(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus);
-
     }
 }
