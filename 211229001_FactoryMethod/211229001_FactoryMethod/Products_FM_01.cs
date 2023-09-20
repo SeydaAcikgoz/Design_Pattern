@@ -18,7 +18,6 @@ namespace _211229001_FactoryMethod
         public List<Products_FM_01> ProductsList = new List<Products_FM_01>();
         public List<Products_FM_01> basket = new List<Products_FM_01>();
 
-        
         public Products_FM_01(int code, string ProductName, int category, int Stock, double Price)
         {
             this.Code = code;
@@ -34,7 +33,6 @@ namespace _211229001_FactoryMethod
 
         public void CreateProductList()
         {
-
             IBeveragesFactory_FM_01 beveragesFactory =new Beverages_FM_01();
             Beverages_FM_01 product1 = beveragesFactory.Create(101, "Chai", 1, 39, 18);
             ProductsList.Add(product1);
@@ -58,8 +56,6 @@ namespace _211229001_FactoryMethod
             ProductsList.Add(product8);
             Products_FM_01 product9 = grainsCerealsFactory.Create(303, "Tunnbröd", 3, 61, 9);
             ProductsList.Add(product9);
-
-
         }
 
         public void LogIn(int cod, string email, string password, List<Customer_FM_01> CustomerList)
@@ -75,9 +71,9 @@ namespace _211229001_FactoryMethod
                 Console.WriteLine("User not found!");
 
         }
+        
         public void LogInControl(string email, string password, Customer_FM_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -90,7 +86,6 @@ namespace _211229001_FactoryMethod
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
 
         public void LogOut(int UserNo, List<Customer_FM_01> CustomerList)
@@ -111,7 +106,6 @@ namespace _211229001_FactoryMethod
 
         public void StockControl(Products_FM_01 products)
         {
-
             if (products.Stock > 0)
             {
                 basket.Add(products);
@@ -121,9 +115,7 @@ namespace _211229001_FactoryMethod
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_FM_01> ProductsList)
         {
@@ -134,7 +126,6 @@ namespace _211229001_FactoryMethod
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -158,7 +149,6 @@ namespace _211229001_FactoryMethod
 
         public void FindPrice(int ProductCode, List<Products_FM_01> ProductsList)
         {
-
             bool product = false;
             ProductsList.ForEach(delegate (Products_FM_01 products)
             {
@@ -171,7 +161,6 @@ namespace _211229001_FactoryMethod
             if (!product)
                 Console.WriteLine("Product not found!");
         }
-
 
         public void FindStock(int ProductCode, List<Products_FM_01> ProductsList)
         {
@@ -206,6 +195,5 @@ namespace _211229001_FactoryMethod
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
     }
 }
