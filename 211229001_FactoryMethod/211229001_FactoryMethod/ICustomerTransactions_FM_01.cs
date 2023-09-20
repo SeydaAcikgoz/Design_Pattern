@@ -12,6 +12,5 @@ namespace _211229001_FactoryMethod
         public void Buy(int UserCode, List<Products_FM_01> ProductsList, List<Customer_FM_01> CustomerList);
         public void Shipping(Customer_FM_01 customer);
        public void ShowAccount(int Usercode, List<Customer_FM_01> CustomerList);
-      
     }
 }
