@@ -21,7 +21,7 @@ namespace _211229001_AbstractFactory
 
         public bool login = false;
         public List<Customer_AF_01> CustomerList = new List<Customer_AF_01>();
-
+        Products_AF_01 Product = new Products_AF_01();
 
         public Customer_AF_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
@@ -36,12 +36,10 @@ namespace _211229001_AbstractFactory
             this.Password = password;
             this.LoginStatus = loginStatus;
         }
+        
         public Customer_AF_01()
         {
         }
-
-        Products_AF_01 Product = new Products_AF_01();
-
 
         public void LogIn(int cod, string email, string password, List<Customer_AF_01> CustomerList)
         {
@@ -54,8 +52,8 @@ namespace _211229001_AbstractFactory
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
+        
         public void LogInControl(string email, string password, Customer_AF_01 customer)
         {
 
@@ -71,9 +69,7 @@ namespace _211229001_AbstractFactory
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
-
 
         public void LogOut(int UserNo, List<Customer_AF_01> CustomerList)
         {
@@ -101,7 +97,6 @@ namespace _211229001_AbstractFactory
 
         public void StockControl(Products_AF_01 products)
         {
-
             if (products.Stock > 0)
             {
                 Product.basket.Add(products);
@@ -111,7 +106,6 @@ namespace _211229001_AbstractFactory
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
 
 
@@ -162,6 +156,7 @@ namespace _211229001_AbstractFactory
             customer.Point += Product.basket.Count() * 10;
             Console.WriteLine("Current point:" + customer.Point);
         }
+        
         public void Payment(Customer_AF_01 customer, double total)
         {
             Console.WriteLine("Price:" + total);
@@ -180,7 +175,6 @@ namespace _211229001_AbstractFactory
             }
 
             Console.WriteLine("Price after discount applied:" + total);
-
 
             if (customer.UserAmount >= total)
             {
@@ -227,7 +221,6 @@ namespace _211229001_AbstractFactory
                         Console.WriteLine("Not logged in.Please loggin first.");
                         return;
                     }
-
                 }
             });
             if (!user)
@@ -250,8 +243,8 @@ namespace _211229001_AbstractFactory
             });
             if (!product)
                 Console.WriteLine("Product not found!");
-
         }
+        
         public void FindStock(int ProductCode, List<Products_AF_01> ProductsList)
         {
             bool product = false;
