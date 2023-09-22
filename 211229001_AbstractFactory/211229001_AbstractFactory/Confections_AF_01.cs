@@ -19,7 +19,6 @@ namespace _211229001_AbstractFactory
 
         public Confections_AF_01()
         {
-
         }
     }
 }
