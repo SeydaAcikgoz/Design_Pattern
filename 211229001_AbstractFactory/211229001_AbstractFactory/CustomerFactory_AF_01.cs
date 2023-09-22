@@ -8,8 +8,6 @@ namespace _211229001_AbstractFactory
 {
     public class CustomerFactory_AF_01:ICustomerFactory_AF_01
     {
-       
-
         public BronzCustomer_AF_01 CreateBronzCustomer(List<Customer_AF_01> CustomerList)
         {
             BronzCustomer_AF_01 bronz = new BronzCustomer_AF_01(1, "Seyda", "Acikgoz", "Konya", 1230, 15, "Bronz", "seyda@gmail.com", "123Seyda", false);
