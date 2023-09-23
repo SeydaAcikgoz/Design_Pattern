@@ -14,6 +14,5 @@ namespace _211229001_AbstractFactory
         public void FindPrice(int ProductCode, List<Products_AF_01> ProductsList);
         public void FindStock(int ProductCode, List<Products_AF_01> ProductsList);
         public void ShowProductsCategory(int category, List<Products_AF_01> ProductsList);
-
     }
 }
