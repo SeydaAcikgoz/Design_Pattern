@@ -8,7 +8,6 @@ namespace _211229001_AbstractFactory
 {
     public class StandardCustomer_AF_01:Customer_AF_01
     {
-       
         public StandardCustomer_AF_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -22,9 +21,9 @@ namespace _211229001_AbstractFactory
             this.Password = password;
             this.LoginStatus = loginStatus;
         }
+        
          public StandardCustomer_AF_01()
         {
-
         }
     }
 }
