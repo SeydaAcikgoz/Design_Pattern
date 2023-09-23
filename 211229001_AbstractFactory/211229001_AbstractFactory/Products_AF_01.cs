@@ -17,7 +17,6 @@ namespace _211229001_AbstractFactory
 
         public List<Products_AF_01> ProductsList = new List<Products_AF_01>();
         public List<Products_AF_01> basket = new List<Products_AF_01>();
-
        
         public Products_AF_01(int code, string ProductName, int category, int Stock, double Price)
         {
@@ -27,16 +26,15 @@ namespace _211229001_AbstractFactory
             this.Stock = Stock;
             this.Price = Price;
         }
+        
          public Products_AF_01()
         {
         }
-
        
         public void CreateProductList()
         {
             IProductFactory_AF_01 productFactory = new ProductFactory_AF_01();
             ClientProduct_AF_01 client = new ClientProduct_AF_01(productFactory,ProductsList);
-           
         }
 
         public void LogIn(int cod, string email, string password, List<Customer_AF_01> CustomerList)
@@ -50,11 +48,10 @@ namespace _211229001_AbstractFactory
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
+        
         public void LogInControl(string email, string password, Customer_AF_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -67,14 +64,12 @@ namespace _211229001_AbstractFactory
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
 
         public void LogOut(int UserNo, List<Customer_AF_01> CustomerList)
         {
             Console.WriteLine(this.GetType().ToString() + " logged out");
         }
-
 
         public void Buy(int UserCode, List<Products_AF_01> ProductsList, List<Customer_AF_01> CustomerList)
         {
@@ -88,7 +83,6 @@ namespace _211229001_AbstractFactory
 
         public void StockControl(Products_AF_01 products)
         {
-
             if (products.Stock > 0)
             {
                 basket.Add(products);
@@ -98,9 +92,7 @@ namespace _211229001_AbstractFactory
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_AF_01> ProductsList)
         {
@@ -111,7 +103,6 @@ namespace _211229001_AbstractFactory
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -135,7 +126,6 @@ namespace _211229001_AbstractFactory
 
         public void FindPrice(int ProductCode, List<Products_AF_01> ProductsList)
         {
-
             bool product = false;
             ProductsList.ForEach(delegate (Products_AF_01 products)
             {
@@ -148,7 +138,6 @@ namespace _211229001_AbstractFactory
             if (!product)
                 Console.WriteLine("Product not found!");
         }
-
 
         public void FindStock(int ProductCode, List<Products_AF_01> ProductsList)
         {
@@ -183,6 +172,5 @@ namespace _211229001_AbstractFactory
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
     }
 }
