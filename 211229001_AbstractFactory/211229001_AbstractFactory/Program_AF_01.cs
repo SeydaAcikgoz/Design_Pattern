@@ -16,8 +16,7 @@ namespace _211229001_FM_01
 
             ICustomerFactory_AF_01 customerFactory = new CustomerFactory_AF_01();
             ClientCustomer_AF_01 client = new ClientCustomer_AF_01(customerFactory, customer.CustomerList);
-           
-
+            
             product.CreateProductList();
 
             product.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
@@ -43,11 +42,9 @@ namespace _211229001_FM_01
             Console.WriteLine();
             product.ShowProductsCategory(1, product.ProductsList);
 
-
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
-
 
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
@@ -79,8 +76,6 @@ namespace _211229001_FM_01
             customer.ShowProductsCategory(1, product.ProductsList);
             Console.WriteLine();
             customer.LogOut(1, customer.CustomerList);
-
         }
     }
-
 }
