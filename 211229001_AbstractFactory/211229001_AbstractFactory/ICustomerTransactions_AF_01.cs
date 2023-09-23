@@ -12,6 +12,5 @@ namespace _211229001_AbstractFactory
         public void Buy(int UserCode, List<Products_AF_01> ProductsList, List<Customer_AF_01> CustomerList);
         public void Shipping(Customer_AF_01 customer);
         public void ShowAccount(int Usercode, List<Customer_AF_01> CustomerList);
-
     }
 }
