@@ -9,17 +9,14 @@ namespace _211229001_AbstractFactory
     public class ProductFactory_AF_01 : IProductFactory_AF_01
     {
         Products_AF_01 product = new();
-
-
         public Beverages_AF_01 CreateBeverages(List<Products_AF_01> ProductsList)
         {
             Beverages_AF_01 beverages = new Beverages_AF_01(101, "Chai", 1, 39, 18);
-             ProductsList.Add(beverages);
+            ProductsList.Add(beverages);
             Beverages_AF_01 beverages2 = new Beverages_AF_01(102, "Chang", 1, 17, 19);
             ProductsList.Add(beverages2);
             Beverages_AF_01 beverages3 = new Beverages_AF_01(103, "Guarana Fantastica", 1, 20, 4.5);
             ProductsList.Add(beverages3);
-
             return beverages;
         }
 
@@ -45,8 +42,5 @@ namespace _211229001_AbstractFactory
 
             return grainsCereals;
         }
-
-
-
     }
 }
