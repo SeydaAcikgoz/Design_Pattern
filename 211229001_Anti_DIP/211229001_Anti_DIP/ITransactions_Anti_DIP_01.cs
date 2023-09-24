@@ -18,6 +18,5 @@ namespace _211229001_Anti_DIP
         public void FindStock(int ProductCode, List<Products_Anti_DIP_01> ProductsList);
         public void ShowAccount(int Usercode, List<Customer_Anti_DIP_01> CustomerList);
         public void ShowProductsCategory(int category, List<Products_Anti_DIP_01> ProductsList);
-
     }
 }
