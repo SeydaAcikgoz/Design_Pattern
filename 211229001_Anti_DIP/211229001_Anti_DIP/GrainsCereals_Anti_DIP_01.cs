@@ -8,8 +8,6 @@ namespace _211229001_Anti_DIP
 {
     public class GrainsCereals_Anti_DIP_01 : Products_Anti_DIP_01
     {
-
-
         public GrainsCereals_Anti_DIP_01(int code, string ProductName, int CategoryNo, string category, int Stock, double Price)
         {
             this.Code = code;
@@ -22,8 +20,6 @@ namespace _211229001_Anti_DIP
 
         public GrainsCereals_Anti_DIP_01()
         {
-
         }
-
     }
 }
