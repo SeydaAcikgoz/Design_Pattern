@@ -8,14 +8,11 @@ namespace _211229001_Anti_DIP
 {
     public class Confections_Anti_DIP_01 : Products_Anti_DIP_01
     {
-
-
         public Confections_Anti_DIP_01(int code, string ProductName, int CategoryNo, string category, int Stock, double Price)
         {
             this.Code = code;
             this.ProductName = ProductName;
             this.CategoryNo = CategoryNo;
-
             this.CategoryType = category;
             this.Stock = Stock;
             this.Price = Price;
@@ -23,8 +20,6 @@ namespace _211229001_Anti_DIP
 
         public Confections_Anti_DIP_01()
         {
-
         }
-
     }
 }
