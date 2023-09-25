@@ -9,14 +9,10 @@ namespace _211229001_Anti_DIP
     {
         static void Main(string[] args)
         {
-
             Customer_Anti_DIP_01 customer = new Customer_Anti_DIP_01();
             Products_Anti_DIP_01 product = new Products_Anti_DIP_01();
 
-
             customer.CustomerList.Add(new BronzCustomer_Anti_DIP_01() { UserNo = 1, UserName = "Seyda", UserSurname = "Acikgoz", Adress = "Konya", UserAmount = 1230, Point = 15, customerType = "Bronz", Email = "seyda@gmail.com", Password = "123Seyda", LoginStatus = false });
-
-
 
             product.CreateProductList();
             product.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
@@ -45,8 +41,6 @@ namespace _211229001_Anti_DIP
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
-
-
 
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", customer.CustomerList);
             Console.WriteLine();
@@ -78,8 +72,6 @@ namespace _211229001_Anti_DIP
             customer.ShowProductsCategory(1, product.ProductsList);
             Console.WriteLine();
             customer.LogOut(1, customer.CustomerList);
-
-
         }
     }
 }
