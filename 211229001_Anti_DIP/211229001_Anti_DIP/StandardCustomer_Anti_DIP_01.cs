@@ -8,10 +8,6 @@ namespace _211229001_Anti_DIP
 {
     public class StandardCustomer_Anti_DIP_01:Customer_Anti_DIP_01
     {
-        public StandardCustomer_Anti_DIP_01()
-        {
-
-        }
         public StandardCustomer_Anti_DIP_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, string customerType, string email, string password, bool loginStatus)
         {
             this.UserNo = userno;
@@ -24,6 +20,10 @@ namespace _211229001_Anti_DIP
             this.Email = email;
             this.Password = password;
             this.LoginStatus = loginStatus;
+        }
+
+        public StandardCustomer_Anti_DIP_01()
+        {
         }
     }
 }
