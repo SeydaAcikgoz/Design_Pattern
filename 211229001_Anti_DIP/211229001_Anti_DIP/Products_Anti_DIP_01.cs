@@ -32,9 +32,9 @@ namespace _211229001_Anti_DIP
             this.Stock = Stock;
             this.Price = Price;
         }
+        
         public void CreateProductList()
         {
-
             Products_Anti_DIP_01 product1 = new Beverages_Anti_DIP_01(101, "Chai",1, "Beverages", 39, 18);
             ProductsList.Add(product1);
             Products_Anti_DIP_01 product2 = new Beverages_Anti_DIP_01(102, "Chang",1, "Beverages", 17, 19);
@@ -53,8 +53,6 @@ namespace _211229001_Anti_DIP
             ProductsList.Add(product8);
             Products_Anti_DIP_01 product9 = new GrainsCereals_Anti_DIP_01(303, "Tunnbröd",3, "GrainsCereals", 61, 9);
             ProductsList.Add(product9);
-
-
         }
 
         public void LogIn(int cod, string email, string password, List<Customer_Anti_DIP_01> CustomerList)
@@ -68,11 +66,10 @@ namespace _211229001_Anti_DIP
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
+        
         public void LogInControl(string email, string password, Customer_Anti_DIP_01 customer)
         {
-
             if (customer.Email.Equals(email) && customer.Password.Equals(password))
             {
                 customer.LoginStatus = true;
@@ -85,14 +82,12 @@ namespace _211229001_Anti_DIP
                 Console.WriteLine("Email or Password wrong");
                 return;
             }
-
         }
 
         public void LogOut(int UserNo, List<Customer_Anti_DIP_01> CustomerList)
         {
             Console.WriteLine(this.GetType().ToString() + " logged out");
         }
-
 
         public void Buy(int UserCode, List<Products_Anti_DIP_01> ProductsList, List<Customer_Anti_DIP_01> CustomerList)
         {
@@ -106,7 +101,6 @@ namespace _211229001_Anti_DIP
 
         public void StockControl(Products_Anti_DIP_01 products)
         {
-
             if (products.Stock > 0)
             {
                 basket.Add(products);
@@ -116,9 +110,7 @@ namespace _211229001_Anti_DIP
             {
                 Console.WriteLine("Product sold out");
             }
-
         }
-
 
         public void AddBasket(int USerCode, int ProductCode, List<Products_Anti_DIP_01> ProductsList)
         {
@@ -129,7 +121,6 @@ namespace _211229001_Anti_DIP
                 {
                     product = true;
                     StockControl(products);
-
                 }
             });
             if (!product)
@@ -153,7 +144,6 @@ namespace _211229001_Anti_DIP
 
         public void FindPrice(int ProductCode, List<Products_Anti_DIP_01> ProductsList)
         {
-
             bool product = false;
             ProductsList.ForEach(delegate (Products_Anti_DIP_01 products)
             {
@@ -166,7 +156,6 @@ namespace _211229001_Anti_DIP
             if (!product)
                 Console.WriteLine("Product not found!");
         }
-
 
         public void FindStock(int ProductCode, List<Products_Anti_DIP_01> ProductsList)
         {
@@ -201,7 +190,5 @@ namespace _211229001_Anti_DIP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
-
     }
 }
