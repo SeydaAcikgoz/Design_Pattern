@@ -10,6 +10,7 @@ namespace _211229001_Anti_ISP
     {
         Gold = 15, Silver = 10, Bronz = 5, Standard = 0
     }
+    
     public class Customer_Anti_ISP_01 : ITranscations_Anti_ISP_01
     {
         public int UserNo;
@@ -22,13 +23,12 @@ namespace _211229001_Anti_ISP
         public string Email;
         public string Password;
         public bool LoginStatus;
-
-
+        Products_Anti_ISP_01 Product = new Products_Anti_ISP_01();
         public bool login = false;
+        
         public Customer_Anti_ISP_01()
         {
         }
-
 
         public Customer_Anti_ISP_01(int userno, string userName, string userSurname, string adress, double UserAmount, int point, CustomerType customerType, string email, string password, bool loginStatus)
         {
@@ -43,9 +43,6 @@ namespace _211229001_Anti_ISP
             this.Password = password;
             this.LoginStatus = loginStatus;
         }
-
-        Products_Anti_ISP_01 Product = new Products_Anti_ISP_01();
-
 
         public void LogIn(int cod, string email, string password, List<Customer_Anti_ISP_01> CustomerList)
         {
@@ -69,7 +66,6 @@ namespace _211229001_Anti_ISP
             });
             if (!login)
                 Console.WriteLine("User not found!");
-
         }
 
         public void LogOut(int UserNo, List<Customer_Anti_ISP_01> CustomerList)
@@ -143,7 +139,6 @@ namespace _211229001_Anti_ISP
             });
 
             Console.WriteLine("Listed products have been shipped to the address " + customer.Adress);
-
         }
 
         public void Buy(int UserCode, List<Products_Anti_ISP_01> ProductsList, List<Customer_Anti_ISP_01> CustomerList)
@@ -195,7 +190,6 @@ namespace _211229001_Anti_ISP
                         Console.WriteLine("Not logged in.Please loggin first.");
                         return;
                     }
-
                 }
             });
             if(!user)
@@ -203,7 +197,6 @@ namespace _211229001_Anti_ISP
                 Console.WriteLine("User not found!");
             }
         }
-
 
         public void FindPrice(int ProductCode, List<Products_Anti_ISP_01> ProductsList)
         {
@@ -218,8 +211,8 @@ namespace _211229001_Anti_ISP
             });
             if (!product)
                 Console.WriteLine("Product not found!");
-
         }
+        
         public void FindStock(int ProductCode, List<Products_Anti_ISP_01> ProductsList)
         {
             bool product = false;
@@ -265,8 +258,5 @@ namespace _211229001_Anti_ISP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
     }
-
 }
-
