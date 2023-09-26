@@ -10,6 +10,7 @@ namespace _211229001_Anti_ISP
     {
         Beverages = 1, Confections = 2, GrainsCereals = 3
     }
+    
     public class Products_Anti_ISP_01 : ITranscations_Anti_ISP_01
     {
         public int Code;
@@ -18,8 +19,6 @@ namespace _211229001_Anti_ISP
         public int Stock;
         public double Price;
         public bool login = false;
-
-
         public List<Products_Anti_ISP_01> basket = new List<Products_Anti_ISP_01>();
         public Products_Anti_ISP_01()
         {
@@ -33,6 +32,7 @@ namespace _211229001_Anti_ISP
             this.Stock = Stock;
             this.Price = Price;
         }
+        
         public void LogIn(int cod,string email, string password, List<Customer_Anti_ISP_01> CustomerList)
         {
             CustomerList.ForEach(delegate (Customer_Anti_ISP_01 customer)
@@ -62,7 +62,6 @@ namespace _211229001_Anti_ISP
             Console.WriteLine(this.GetType().ToString() + " logged out");
         }
 
-
         public void Buy(int UserCode, List<Products_Anti_ISP_01> ProductsList, List<Customer_Anti_ISP_01> CustomerList)
         {
             Console.WriteLine(this.GetType().ToString() + " bought ");
@@ -90,12 +89,10 @@ namespace _211229001_Anti_ISP
                     {
                         Console.WriteLine("Product sold out");
                     }
-
                 }
             });
             if (!product)
                 Console.WriteLine("Product not found!");
-
         }
 
         public void ShowBasket()
@@ -115,7 +112,6 @@ namespace _211229001_Anti_ISP
 
         public void FindPrice(int ProductCode, List<Products_Anti_ISP_01> ProductsList)
         {
-            
             bool product = false;
             ProductsList.ForEach(delegate (Products_Anti_ISP_01 products)
             {
@@ -163,8 +159,5 @@ namespace _211229001_Anti_ISP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
-        
     }
-
 }
