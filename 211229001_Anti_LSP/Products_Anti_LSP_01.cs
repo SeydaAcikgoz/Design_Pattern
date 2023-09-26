@@ -10,6 +10,7 @@ namespace _211229001_Anti_LSP
     {
         Beverages = 1, Confections = 2, GrainsCereals = 3
     }
+    
     public class Products_Anti_LSP_01
     {
         public int Code;
@@ -18,9 +19,9 @@ namespace _211229001_Anti_LSP
         public int Stock;
         public double Price;
         public bool login = false;
-
         public List<Products_Anti_LSP_01> ProductsList = new List<Products_Anti_LSP_01>();
         public List<Products_Anti_LSP_01> basket = new List<Products_Anti_LSP_01>();
+        
         public Products_Anti_LSP_01()
         {
         }
@@ -33,6 +34,7 @@ namespace _211229001_Anti_LSP
             this.Stock = Stock;
             this.Price = Price;
         }
+        
         public void LogIn(int cod, string email, string password, List<Customer_Anti_LSP_01> CustomerList)
         {
             CustomerList.ForEach(delegate (Customer_Anti_LSP_01 customer)
@@ -62,7 +64,6 @@ namespace _211229001_Anti_LSP
             Console.WriteLine(this.GetType().ToString() + " logged out");
         }
 
-
         public void Buy(int UserCode, List<Customer_Anti_LSP_01> CustomerList)
         {
             Console.WriteLine(this.GetType().ToString() + " bought ");
@@ -90,12 +91,10 @@ namespace _211229001_Anti_LSP
                     {
                         Console.WriteLine("Product sold out");
                     }
-
                 }
             });
             if (!product)
                 Console.WriteLine("Product not found!");
-
         }
 
         public void ShowBasket()
@@ -115,7 +114,6 @@ namespace _211229001_Anti_LSP
 
         public void FindPrice(int ProductCode)
         {
-
             bool product = false;
             ProductsList.ForEach(delegate (Products_Anti_LSP_01 products)
             {
@@ -128,7 +126,6 @@ namespace _211229001_Anti_LSP
             if (!product)
                 Console.WriteLine("Product not found!");
         }
-
 
         public void FindStock(int ProductCode)
         {
@@ -163,7 +160,5 @@ namespace _211229001_Anti_LSP
             });
             if (!Category) Console.WriteLine("Category not found");
         }
-
-
     }
 }
