@@ -8,7 +8,6 @@ namespace _211229001_Anti_ISP
     {
         static void Main(string[] args)
         {
-
             List<Products_Anti_ISP_01> ProductsList = new List<Products_Anti_ISP_01>();
             ProductsList.Add(new Products_Anti_ISP_01() { Code = 101, ProductName = "Chai", categoryType = CategoryType.Beverages, Stock = 39, Price = 18 });
             ProductsList.Add(new Products_Anti_ISP_01() { Code = 102, ProductName = "Chang", categoryType = CategoryType.Beverages, Stock = 17, Price = 19 });
@@ -19,7 +18,6 @@ namespace _211229001_Anti_ISP
             ProductsList.Add(new Products_Anti_ISP_01() { Code = 301, ProductName = "Ikura", categoryType = CategoryType.GrainsCereals, Stock = 31, Price = 31 });
             ProductsList.Add(new Products_Anti_ISP_01() { Code = 302, ProductName = "Tofu", categoryType = CategoryType.GrainsCereals, Stock = 35, Price = 25.25 });
             ProductsList.Add(new Products_Anti_ISP_01() { Code = 303, ProductName = "Tunnbröd", categoryType = CategoryType.GrainsCereals, Stock = 61, Price = 9 });
-
             
             List<Customer_Anti_ISP_01> CustomerList = new List<Customer_Anti_ISP_01>();
             CustomerList.Add(new Customer_Anti_ISP_01() { UserNo = 1, UserName = "Seyda", UserSurname = "Acikgoz", Adress = "Konya", UserAmount = 1230, Point = 15, customerType = CustomerType.Bronz, Email = "seyda@gmail.com", Password = "123Seyda", LoginStatus = false });
@@ -56,13 +54,11 @@ namespace _211229001_Anti_ISP
             Console.WriteLine();
             product.LogOut(1, CustomerList);
 
-
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
             
             Customer_Anti_ISP_01 customer = new Customer_Anti_ISP_01();
-
             customer.LogIn(5, "seyda@gmail.com", "123Seyda", CustomerList);
             Console.WriteLine();
             customer.LogIn(1, "seda@gmail.com", "123Seyda", CustomerList);
@@ -93,13 +89,6 @@ namespace _211229001_Anti_ISP
             customer.ShowProductsCategory(CategoryType.Beverages, ProductsList);
             Console.WriteLine();
             customer.LogOut(1, CustomerList);
-           
-
-
-           
-
         }
     }
-
-
 }
