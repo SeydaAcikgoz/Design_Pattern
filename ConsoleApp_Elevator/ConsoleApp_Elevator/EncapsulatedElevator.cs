@@ -67,11 +67,8 @@ namespace ConsoleApp_Elevator
             {
                 Console.WriteLine("ZATEN EN ÜST KATTA! ");
             }
-
             OpenDoor();
         }
-
-
 
         public void GoDown()
         {
@@ -91,11 +88,8 @@ namespace ConsoleApp_Elevator
             OpenDoor();
         }
 
-
-
         public void Go(FloorType destination) // negatif kata gidebilir?
         {
-
             int compare = currentFloor.GetFloorType().CompareTo(destination);
 
             while (compare != 0)
@@ -108,15 +102,8 @@ namespace ConsoleApp_Elevator
                 {
                     GoDown();
                 }
-
                 compare = currentFloor.GetFloorType().CompareTo(destination);
             }
-
-
         }
-
-
-
-
     }
 }
