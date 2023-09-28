@@ -59,7 +59,6 @@ namespace ConsoleApp_Elevator
                     CurrentFloor++;
                     Console.WriteLine("yukarı kata çıkıldı.");
                 }
-
                 else
                     Console.WriteLine("zaten en üst katta");
             }
@@ -97,13 +96,11 @@ namespace ConsoleApp_Elevator
                         GoDown();
                     }
                 }
-
             }
             else
             {
                 Console.WriteLine("sınırları astık galiba...");
             }
         }
-
     }
 }
