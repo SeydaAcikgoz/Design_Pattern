@@ -18,8 +18,7 @@ namespace _211229001_Builder
         public List<Products_B_01> ProductsList = new List<Products_B_01>();
         public List<Products_B_01> basket = new List<Products_B_01>();
 
-        public
-            Products_B_01()
+        public Products_B_01()
         {
         }
         
