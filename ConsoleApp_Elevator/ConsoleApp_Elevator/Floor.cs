@@ -23,10 +23,8 @@ namespace ConsoleApp_Elevator
             return this.FloorType;
         }
 
-
         public FloorType GoUp()
         {
-
             int currentFloor = (int)FloorType;
 
             if (currentFloor == 0)
@@ -49,16 +47,13 @@ namespace ConsoleApp_Elevator
             {
                 FloorType = FloorType.FIFTH;
             }
-
             Console.WriteLine("go up " + FloorType.ToString());
 
             return FloorType;
-
         }
 
         public FloorType GoDown()
         {
-
             int currentFloor = (int)FloorType;
 
             if (currentFloor == 1)
@@ -85,7 +80,6 @@ namespace ConsoleApp_Elevator
             Console.WriteLine("go down: " + FloorType.ToString());
 
             return FloorType;
-
         }
     }
 }
