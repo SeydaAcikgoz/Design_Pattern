@@ -45,6 +45,5 @@ namespace FactoryMethod_Customer
             builder.Append(" Salary: " + CalculateSalary());
             return builder.ToString();
         }
-
     }
 }
