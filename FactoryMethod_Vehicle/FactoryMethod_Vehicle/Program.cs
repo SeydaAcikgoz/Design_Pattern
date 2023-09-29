@@ -7,7 +7,8 @@ namespace FactoryMethod_Vehicle
     {
         static void Main(string[] args)
         {
-            /*Factory Method'a uygun olmayan kısım
+            /*
+            Factory Method'a uygun olmayan kısım
             
             List<Arac> aracList = new List<Arac>();
 
@@ -19,12 +20,11 @@ namespace FactoryMethod_Vehicle
              foreach (var item in aracList)
              {
                  item.HareketEt(50);
-             }*/
+             }
+            */
 
             //Factory Method'a uygun kısım
             VehicleFactory concreteVehicleFactory = new VehicleFactory();
-
-
             IArac factory1 = concreteVehicleFactory.AracOlustur("bisiklet", "bike 1");
             IArac factory2 = concreteVehicleFactory.AracOlustur("otomobil", "oto 1");
             IArac factory3 = concreteVehicleFactory.AracOlustur("bisiklet", "bike 2");
@@ -38,9 +38,6 @@ namespace FactoryMethod_Vehicle
                 item.HareketEt(50);
                 item.Dur();
             }
-
-
-
         }
     }
 }
