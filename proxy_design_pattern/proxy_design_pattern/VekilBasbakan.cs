@@ -39,7 +39,5 @@ namespace proxy_design_pattern
         {
             gercekBasbakan.DertDinle(dert);
         }
-
-        
     }
 }
