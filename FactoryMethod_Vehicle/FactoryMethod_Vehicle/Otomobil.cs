@@ -16,7 +16,6 @@ namespace FactoryMethod_Vehicle
         public void HareketEt(int hiz)
         {
             Console.WriteLine(this.GetType() + " HareketEt " + hiz * 5);
-
         }
     }
 }
