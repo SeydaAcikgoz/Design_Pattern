@@ -23,8 +23,7 @@ namespace FactoryMethod_Customer
             Console.WriteLine(director1.ToString());
             Employee director2 = directorFactory.Create("Fatma");
             Console.WriteLine(director2.ToString());
-
-         */
+           */
 
             /*Factory Method a uygun olan kısım*/
             IDirectorFactory_FM directorFactory1 = new DirectorFactor_FM();
@@ -37,13 +36,11 @@ namespace FactoryMethod_Customer
 
             List<Director> employees = new List<Director>() { director1, director2 };
 
-
             foreach (var item in employees)
             {
                 Console.WriteLine(item.ToString() + " dept: " + item.managingDepartment + "bonus: " + item.bonus);
 
             }
-
         }
     }
 }
