@@ -26,7 +26,5 @@ namespace proxy_design_pattern
             basbakan.IsBul("oglum");
             return "o is bulundu";
         }
-
-
     }
 }
